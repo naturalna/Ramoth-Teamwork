@@ -1,20 +1,23 @@
 ﻿(function () {
     var homeList = new WinJS.Binding.List([]);
     var allPagesDynamicList = new WinJS.Binding.List([]);
-    var last = new WinJS.Binding.List([]);
 
     var loadFish = function () {
-        var fishDTOs = Data.getFishes(1);
 
-        var currentCount = homeList.dataSource.list.length
-        homeList.dataSource.list.splice(0, currentCount);
+        Data.getFishes(1).then(
+        function (fishDTOs) {
 
-        for (var i = 0; i < fishDTOs.length; i++) {
-            homeList.push(fishDTOs[i]);
-        }
-        //check for index
-        //home page at index 0
-        allPagesDynamicList[0] = homeList;
+            var currentCount = homeList.dataSource.list.length
+            homeList.dataSource.list.splice(0, currentCount);
+
+            for (var i = 0; i < fishDTOs.length; i++) {
+                homeList.push(fishDTOs[i]);
+            }
+            //check for index
+            //home page at index 0
+            allPagesDynamicList[0] = homeList;
+        });
+
     }
 
     var loadPart = function (partNumber) {
@@ -28,7 +31,6 @@
         homeList: homeList,
         allPagesDynamicList: allPagesDynamicList,
         loadPart: loadPart,
-        last: last,
         //addFish: function (name, discription, imageURL) {
         //    Data.addFish(new Models.FishModel(name, discription, imageURL));
         //}

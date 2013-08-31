@@ -18,7 +18,7 @@
         });
     };
     function getFishData(fishId) {
-        var queryForPageDataUrl = " http://eol.org/api/pages/1.0/" + pageId + ".json?images=10&videos=10&sounds=0&maps=0&text=10&iucn=false&subjects=overview&licenses=all&details=true&common_names=true&synonyms=true&references=true&vetted=0&cache_ttl=";
+        var queryForPageDataUrl = " http://eol.org/api/pages/1.0/" + fishId + ".json?images=10&videos=10&sounds=0&maps=0&text=10&iucn=false&subjects=overview&licenses=all&details=true&common_names=true&synonyms=true&references=true&vetted=0&cache_ttl=";
 
         return WinJS.xhr({
                 type: "GET",
