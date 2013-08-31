@@ -9,16 +9,10 @@
         }, {
             name: "",
             discription: "",
-            imageURL :"",
+            imageURL: "",
         })
-
-    var AllFishes = function()
-    {
-        return Data.allFishes;
-    }
 
     WinJS.Namespace.define("Models", {
         FishModel: FishModel,
-        AllFishes: AllFishes,
     })
 })();

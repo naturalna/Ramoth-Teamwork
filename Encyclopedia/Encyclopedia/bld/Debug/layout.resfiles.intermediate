@@ -10,6 +10,11 @@ js\default.js
 js\models.js
 js\navigator.js
 js\viewmodels.js
+pages\fish\codeBehind.js
+pages\fish\fish.css
+pages\fish\fish.html
+pages\fish\fish.js
+pages\home\codeBehaind.js
 pages\home\home.css
 pages\home\home.html
 pages\home\home.js

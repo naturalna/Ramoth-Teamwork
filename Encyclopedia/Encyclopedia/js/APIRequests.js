@@ -85,11 +85,23 @@
         return hierarchies;
     };
 
+    var getTest = function (page) {
+        //json
+        return [{
+            "name": "test name", "discription": "adscdsv",
+            "imageURL": "http://content61.eol.org/content/2013/08/29/23/24361_orig.jpg"
+        }, {
+            "name": "test name2", "discription": "adscdsv2222222222222",
+            "imageURL": "http://content61.eol.org/content/2013/08/29/23/24361_orig.jpg"
+        }];
+    };
+
     WinJS.Namespace.define("APIRequests", {
         getProvider: getProvider,//done
         getHierarchies: getHierarchies,//done        
         getFishesByPage: getAllFishes,//done
         getFishData: getFishData,//done
-        queryForFishesSearch: searchForFishes//done
+        queryForFishesSearch: searchForFishes,//done
+        getTest:getTest
     });
 }());

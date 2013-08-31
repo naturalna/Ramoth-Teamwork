@@ -1,34 +1,31 @@
 ﻿//here we have all requests to db
 (function () {
-    //this must be in separeted class
-    //var downloadRequest = function () {
-    //    //TODO
-    //    //in response 1 page (30)
-    //    //return jsonObjec with name discription and image url.It may contains something else
-    //    return [{ name: "testName", discription: "tessssssssssssssst", imageURL: "" }];
-        
-    //};
-    var downloaded = APIRequests.queryForFishesSearch(1);
+
     var allFishes = [];
+    var _homePage = 1;
 
-    var generateModels = function () {
-        var downloadedPageAsJSON = downloadRequest();
-
+    var generateModels = function (pageNumber) {
+        //download page
+        var downloadedPageAsJSON = APIRequests.getTest(pageNumber);
+        //the new one
+        allFishes = [];
         for (var i = 0; i < downloadedPageAsJSON.length; i++) {
-            allFishes.push(new Models.FishModel(downloadedPageAsJSON.name,
-                downloadedPageAsJSON.discription, downloadedPageAsJSON.imageURL));
+            allFishes.push(new Models.FishModel(downloadedPageAsJSON[i].name,
+                downloadedPageAsJSON[i].discription, downloadedPageAsJSON[i].imageURL));
         }
     }
 
-    var getFishes = function () {
+    var getFishes = function (pageNumber) {
+        generateModels(pageNumber);
         return allFishes;
     }
-    
+
     //var addFish = function (computerModel) {
     //    computers.push(computerModel);
     //}
-    //we cam add voltes
+    //we can add voltes
     WinJS.Namespace.define("Data", {
         getFishes: getFishes,
     });
+
 }());

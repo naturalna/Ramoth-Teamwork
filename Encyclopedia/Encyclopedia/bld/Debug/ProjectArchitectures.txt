@@ -1,1 +1,1 @@
-C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\Encyclopedia.jsproj;neutral
+E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\Encyclopedia.jsproj;neutral

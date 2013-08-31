@@ -29,15 +29,6 @@
                 } else {
                     return nav.navigate(Application.navigator.home);
                 }
-
-                // example of the queryForFishesSearch request works when you comment out the if-else statment above
-                var container = document.getElementById("contenthost");
-
-                APIRequests.queryForFishesSearch("fish").then(function (data) {
-                    container.innerText = data.totalResults + " ";
-                    container.innerText += data.itemsPerPage;
-                });
-                // example End               
             }));
         }
     });

@@ -11,11 +11,21 @@
 
     <link href="/css/default.css" rel="stylesheet" />
     <link href="/pages/home/home.css" rel="stylesheet" />
+    <script src="codeBehaind.js"></script>
     <script src="/pages/home/home.js"></script>
 </head>
 <body>
     <!-- The content that will be loaded and displayed. -->
     <div class="fragment homepage">
+        <!--template-->
+        <div id="short-fish-template" data-win-control="WinJS.Binding.Template">
+            <div>
+                <span data-win-bind="innerText: name"></span>, 
+                <span data-win-bind="innerText: discription"></span>
+                <img src="#" data-win-bind="src: imageURL" height="100" width="100" />
+            </div>
+        </div>
+
         <header aria-label="Header content" role="banner">
             <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
             <h1 class="titlearea win-type-ellipsis">
@@ -24,6 +34,18 @@
         </header>
         <section aria-label="Main content" role="main">
             <p>Home page</p>
+
+            <div data-win-control="WinJS.UI.ListView"
+                data-win-options="{
+                    itemDataSource: ViewModels.homeList.dataSource,
+                    itemTemplate: select('#short-fish-template'),
+                    
+                    selectionMode: 'none'
+                }">
+            </div>
+            <!--from options-->
+            <!--oniteminvoked: HomeCodeBehind.goToComputerDetailsPage,-->
+            <button id="nextPage">NextPage</button>
         </section>
     </div>
 </body>

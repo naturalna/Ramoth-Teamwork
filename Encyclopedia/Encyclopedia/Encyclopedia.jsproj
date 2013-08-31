@@ -64,10 +64,15 @@
     <Content Include="js\models.js" />
     <Content Include="js\navigator.js" />
     <Content Include="js\viewmodels.js" />
+    <Content Include="default.html" />
+    <Content Include="pages\fish\codeBehind.js" />
+    <Content Include="pages\fish\fish.css" />
+    <Content Include="pages\fish\fish.html" />
+    <Content Include="pages\fish\fish.js" />
+    <Content Include="pages\home\codeBehaind.js" />
     <Content Include="pages\home\home.css" />
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />
-    <Content Include="default.html" />
     <None Include="Encyclopedia_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
