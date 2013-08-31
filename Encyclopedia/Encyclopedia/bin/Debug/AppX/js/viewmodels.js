@@ -3,7 +3,7 @@
     var allPagesDynamicList = new WinJS.Binding.List([]);
 
     var loadFish = function () {
-
+        //var fishDTOs = Data.getFishes(1);
         Data.getFishes(1).then(
         function (fishDTOs) {
 

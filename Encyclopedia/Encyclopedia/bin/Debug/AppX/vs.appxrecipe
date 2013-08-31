@@ -58,7 +58,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\dataLayer.js">
       <PackagePath>js\dataLayer.js</PackagePath>
-      <Modified>2013-08-31T18:53:56.955</Modified>
+      <Modified>2013-08-31T23:00:39.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -74,7 +74,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\viewmodels.js">
       <PackagePath>js\viewmodels.js</PackagePath>
-      <Modified>2013-08-31T18:49:43.975</Modified>
+      <Modified>2013-08-31T22:44:25.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\codeBehind.js">
       <PackagePath>pages\fish\codeBehind.js</PackagePath>
@@ -102,7 +102,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2013-08-31T13:49:21.103</Modified>
+      <Modified>2013-08-31T22:27:53.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
