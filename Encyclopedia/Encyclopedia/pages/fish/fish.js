@@ -4,27 +4,23 @@
     "use strict";
 
     WinJS.UI.Pages.define("/pages/fish/fish.html", {
-        init: function (element, options) {
-            ViewModels.loadPart(options.pageIndex);
-        },
-
-        // This function is called whenever a user navigates to this page. It
-        // populates the page elements with the app's data.
         ready: function (element, options) {
             // TODO: Initialize the page here.
             var pageIndex = options.pageIndex;
             var nextPageIndex = pageIndex + 1;
+            
+            ViewModels.loadPart(options.pageIndex).then(function () {
+                WinJS.UI.processAll().then(function () {
+                    var listv = document.getElementById("listView").winControl;
+                   
+                    var bindingList = ViewModels.allPagesDynamicList[pageIndex];
 
-            var listv = document.getElementById("listView").winControl;
+                    listv.itemDataSource = bindingList.dataSource;
 
-            var bindingList = new WinJS.Binding.List(ViewModels.allPagesDynamicList[pageIndex]);
-
-            listv.itemDataSource = bindingList.dataSource;
-           // WinJS.Binding.processAll(element,
-           //ViewModels.allPagesDynamicList[pageIndex]);
-
-            var button = document.getElementById("click").addEventListener("click", function () {
-                CodeBehind.goToPage(nextPageIndex);
+                    var button = document.getElementById("click").addEventListener("click", function () {
+                        CodeBehind.goToPage(nextPageIndex);
+                    });
+                });
             });
         },
 

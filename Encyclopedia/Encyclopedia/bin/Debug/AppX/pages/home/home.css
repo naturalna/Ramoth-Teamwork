@@ -16,3 +16,11 @@
         margin-right: 100px;
     }
 }
+.win-listview 
+{
+    height: 500px;
+}
+.win-item {
+    height:100px;
+    width:100px;
+}

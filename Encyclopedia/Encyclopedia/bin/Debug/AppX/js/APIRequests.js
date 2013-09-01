@@ -1,7 +1,7 @@
 ﻿(function () {
 
     function getAllFishes(page) {
-        if (page != Number) {
+        if (typeof page !== 'number') {
             page = 1;
         }
         var queryUrl =

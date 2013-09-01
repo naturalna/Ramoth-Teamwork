@@ -21,9 +21,18 @@
     }
 
     var loadPart = function (partNumber) {
-        var part = Data.getFishes(partNumber).then(function (part) {
-            allPagesDynamicList[partNumber] = part;
-        });
+        return new WinJS.Promise(function (succsec) {
+            Data.getFishes(partNumber).then(function (part) {
+                var parts = new WinJS.Binding.List([]);
+
+                for (var i = 0; i < part.length; i++) {
+                    parts.push(part[i]);
+                }
+
+                allPagesDynamicList[partNumber] = parts;
+                succsec(parts);
+            });
+        });      
     }
 
     WinJS.Namespace.define("ViewModels", {
@@ -31,8 +40,6 @@
         homeList: homeList,
         allPagesDynamicList: allPagesDynamicList,
         loadPart: loadPart,
-        //addFish: function (name, discription, imageURL) {
-        //    Data.addFish(new Models.FishModel(name, discription, imageURL));
-        //}
+
     });
 })();

@@ -6,11 +6,8 @@
     var allFishes = [];
     var promise = [];
 
-    var getAll = function (pageNumber) {
-
-    }
-
     var generateModels = function (pageNumber) {
+        allFishes = [];
         return new WinJS.Promise(function (succses) {
             promise[0] = new WinJS.Promise(function (succses, error) {
                 APIRequests.getFishesByPage(pageNumber).then(function (jsonResult) {
@@ -53,6 +50,25 @@
         });
     };
 
+    var takeModels = function (pageNumber) {
+        allFishes = [];
+        return new WinJS.Promise(function (succses) {
+            promise[0] = new WinJS.Promise(function (succses, error) {
+                APIRequests.getFishesByPage(pageNumber).then(function (jsonResult) {
+
+                    for (var j = 0; j < jsonResult.results.length; j++) {
+                        allFishes.push({
+                            "name": jsonResult.results[j].title,
+                        });
+                    }
+                }).then(function () { succses();});
+            });
+
+            //new WinJS.Promise.join(promise).then(function () {
+            //    succses(allFishes);
+            //});
+        });
+    };
     //we can add voltes
     WinJS.Namespace.define("Data", {
         getFishes: generateModels,

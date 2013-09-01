@@ -19,31 +19,32 @@
         <header aria-label="Header content" role="banner">
             <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
             <h1 class="titlearea win-type-ellipsis">
-                <span class="pagetitle">Welcome to fish</span>
+                <span class="pagetitle">Welcome to fish vvv</span>
             </h1>
         </header>
+
         <section aria-label="Main content" role="main">
 
-        <div id="short-fish-template" data-win-control="WinJS.Binding.Template">
-            <div>
-                
-                <span data-win-bind="innerText: name"></span>, 
-                <span data-win-bind="innerText: discription"></span>
-                <img src="#" data-win-bind="src: imageURL" height="100" width="100" />
-            </div>
-        </div>
-            
-             <div id="listView" data-win-control="WinJS.UI.ListView"
-                data-win-options="{
+            <div id="holder">
+
+                <div id="short-fish-template" data-win-control="WinJS.Binding.Template">
+                    <div>
+                         <span data-win-bind="innerText: name"></span>, 
+                        <span data-win-bind="innerText: discription"></span>
+                        <img src="#" data-win-bind="src: imageURL" height="100" width="100" />
+                    </div>
+                </div>
+                <div id="listView" data-win-control="WinJS.UI.ListView"
+                    data-win-options="{
                     itemTemplate: select('#short-fish-template'),
                     
                     selectionMode: 'none'
                 }">
+                </div>
             </div>
-            <button id="click">nextPAge</button>
 
+            <button id="click">nextPAge</button>
         </section>
     </div>
-
 </body>
 </html>
