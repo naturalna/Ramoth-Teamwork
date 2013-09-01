@@ -21,9 +21,9 @@
     }
 
     var loadPart = function (partNumber) {
-        var part = Data.getFishes(partNumber);
-        allPagesDynamicList[partNumber] = part;
-        last = part;
+        var part = Data.getFishes(partNumber).then(function (part) {
+            allPagesDynamicList[partNumber] = part;
+        });
     }
 
     WinJS.Namespace.define("ViewModels", {

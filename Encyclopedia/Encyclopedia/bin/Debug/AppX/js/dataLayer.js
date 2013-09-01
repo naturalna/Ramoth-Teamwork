@@ -3,7 +3,7 @@
 
     var _homePage = 1;
     var promiseArray = [];
-    var allFishes = [];//new WinJS.Binding.List([]);
+    var allFishes = [];
     var promise = [];
 
     var getAll = function (pageNumber) {
@@ -13,31 +13,14 @@
     var generateModels = function (pageNumber) {
         return new WinJS.Promise(function (succses) {
             promise[0] = new WinJS.Promise(function (succses, error) {
-                //------------------------------------------------------
-                APIRequests.getFishesByPage().then(function (jsonResult) {
+                APIRequests.getFishesByPage(pageNumber).then(function (jsonResult) {
                     //item 30
                     find(jsonResult, allFishes);
                     return new WinJS.Promise.join(promiseArray).then(
                         function (data) {
                             succses();
                         });
-                    //return new WinJS.Promise.thenEach(promiseArray, function (data) {
-                    //    return data;
-                    //}).then(function (data) { succses(data); })
-
-                    //find(jsonResult, allFishes).then(function (data) {
-                    //    return new WinJS.Promise(function (succ) {
-
-                    //for (var i = 0; i < data.length; i++) {
-                    //    allFishes.push(new Models.FishModel(data[i].name,
-                    //        data[i].discription, data[i].imageURL));
-                    //}
-
-                    //        succ(allFishes);
-                    //    });
-                    //})
                 })
-                //---------------------------------------------
             });
 
             new WinJS.Promise.join(promise).then(function () {
@@ -69,7 +52,6 @@
             }
         });
     };
-
 
     //we can add voltes
     WinJS.Namespace.define("Data", {
