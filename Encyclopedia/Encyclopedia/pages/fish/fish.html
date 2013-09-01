@@ -12,6 +12,7 @@
     <link href="fish.css" rel="stylesheet" />
     <script src="../../js/viewmodels.js"></script>
     <script src="codeBehind.js"></script>
+    <script src="favoriteSelection.js"></script>
     <script src="fish.js"></script>
 </head>
 <body>
@@ -38,8 +39,9 @@
                     data-win-options="{
                     itemTemplate: select('#short-fish-template'),
                     layout : {type: WinJS.UI.ListLayout},
-                    selectionMode: 'none',
-                    oniteminvoked: CodeBehind.showListViewInvokedItem
+                    selectionMode: 'multi',
+                    oniteminvoked: CodeBehind.showListViewInvokedItem,
+                    onselectionchanged: FavoriteSelection.addSelectionToFavorite,
                 }">
                 </div>
             </div>

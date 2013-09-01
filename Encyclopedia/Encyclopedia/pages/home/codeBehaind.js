@@ -19,8 +19,12 @@
         });
     }
 
+    var addSelectionToFavorite = function () {
+    };
+
     WinJS.Utilities.markSupportedForProcessing(goToPage);
     WinJS.Utilities.markSupportedForProcessing(showListViewInvokedItem);
+    WinJS.Utilities.markSupportedForProcessing(addSelectionToFavorite);
 
     WinJS.Namespace.define("HomeCodeBehind", {
         callLoadFishesHomePage: function () {
@@ -28,6 +32,7 @@
         },
 
         goToPage: goToPage,
-        showListViewInvokedItem: showListViewInvokedItem
+        showListViewInvokedItem: showListViewInvokedItem,
+        addSelectionToFavorite: addSelectionToFavorite,
     })
 })();

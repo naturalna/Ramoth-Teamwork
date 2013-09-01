@@ -40,9 +40,10 @@
                     data-win-options="{
                     itemDataSource: ViewModels.homeList.dataSource,
                     itemTemplate: select('#short-fish-template'), 
-                    selectionMode: 'none',
+                    selectionMode: 'multi',
                     layout : {type: WinJS.UI.ListLayout},
-                    oniteminvoked: HomeCodeBehind.showListViewInvokedItem
+                    oniteminvoked: HomeCodeBehind.showListViewInvokedItem,
+                    onselectionchanged: HomeCodeBehind.addSelectionToFavorite,
                 }">
                 </div>
             </div>

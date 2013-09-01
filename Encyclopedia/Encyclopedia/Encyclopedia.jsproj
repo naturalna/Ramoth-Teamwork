@@ -55,6 +55,7 @@
     </AppxManifest>
     <Content Include="css\default.css" />
     <Content Include="images\logo.png" />
+    <Content Include="images\PhotoNotAvailable.jpg" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
@@ -70,6 +71,7 @@
     <Content Include="pages\details\details.js" />
     <Content Include="pages\details\template.html" />
     <Content Include="pages\fish\codeBehind.js" />
+    <Content Include="pages\fish\favoriteSelection.js" />
     <Content Include="pages\fish\fish.css" />
     <Content Include="pages\fish\fish.html" />
     <Content Include="pages\fish\fish.js" />

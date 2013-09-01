@@ -60,7 +60,7 @@
                     for (var j = 0; j < jsonResult.results.length; j++) {
                         allFishes.push({
                             "name": jsonResult.results[j].title,
-                             "id": jsonResult.results[j].id,
+                            "id": jsonResult.results[j].id,
                         });
                     }
                 })
@@ -78,22 +78,25 @@
         return new WinJS.Promise(function (success, error) {
 
             var promise = APIRequests.getFishData(id).then(function (json) {
-
-                for (var j = 0; j < json.dataObjects.length; j++) {
-                    if (json.dataObjects[j].eolMediaURL != undefined) {
-                        article ={
-                            "name": json.dataObjects[j].title,
+                for (var j = json.dataObjects.length -1 ; j >= 0 ; j--) {
+                    if (json.dataObjects[j].eolMediaURL !== undefined && json.dataObjects[j].description !== undefined) {
+                        article = {
+                           
                             "discription": json.dataObjects[j].description,
                             "imageURL": json.dataObjects[j].eolMediaURL
                         };
-
-                        var patt = new RegExp(pattern, "igm");
-
-                        article.discription
                         success(article);
-                        break;
-                    }
+                        return article;
+                    }                   
                 }
+
+                //var clearHTML = toStaticHTML(article.discription);
+                //article.discription = clearHTML;
+                //if (article.imageURL === undefined) {
+                //    article.imageURL = "/images/PhotoNotAvailable.jpg";
+                //}
+
+               
             });
         });
     };

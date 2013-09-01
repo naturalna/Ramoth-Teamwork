@@ -1,6 +1,7 @@
 css\default.css
 default.html
 images\logo.png
+images\PhotoNotAvailable.jpg
 images\smalllogo.png
 images\splashscreen.png
 images\storelogo.png
@@ -15,6 +16,7 @@ pages\details\details.html
 pages\details\details.js
 pages\details\template.html
 pages\fish\codeBehind.js
+pages\fish\favoriteSelection.js
 pages\fish\fish.css
 pages\fish\fish.html
 pages\fish\fish.js

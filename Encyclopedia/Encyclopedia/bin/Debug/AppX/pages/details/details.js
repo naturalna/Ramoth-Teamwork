@@ -15,12 +15,15 @@
                         var template = new WinJS.Binding.Template(null, {
                             href: "/pages/details/template.html"
                         });
-
+                        var progress = document.getElementById("progress");
+                        progress.innerHTML = "";
                         var container = document.getElementById("container");
                         template.render(list, container);
                     }
                 );
                 });
+
+
         },
 
         //unload: function () {
