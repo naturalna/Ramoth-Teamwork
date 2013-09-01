@@ -65,6 +65,10 @@
     <Content Include="js\navigator.js" />
     <Content Include="js\viewmodels.js" />
     <Content Include="default.html" />
+    <Content Include="pages\details\details.css" />
+    <Content Include="pages\details\details.html" />
+    <Content Include="pages\details\details.js" />
+    <Content Include="pages\details\template.html" />
     <Content Include="pages\fish\codeBehind.js" />
     <Content Include="pages\fish\fish.css" />
     <Content Include="pages\fish\fish.html" />

@@ -30,15 +30,16 @@
                 <div id="short-fish-template" data-win-control="WinJS.Binding.Template">
                     <div>
                          <span data-win-bind="innerText: name"></span>, 
-                        <span data-win-bind="innerText: discription"></span>
-                        <img src="#" data-win-bind="src: imageURL" height="100" width="100" />
+                       <!-- <span data-win-bind="innerText: discription"></span>
+                        <img src="#" data-win-bind="src: imageURL" height="100" width="100" />-->
                     </div>
                 </div>
                 <div id="listView" data-win-control="WinJS.UI.ListView"
                     data-win-options="{
                     itemTemplate: select('#short-fish-template'),
-                    
-                    selectionMode: 'none'
+                    layout : {type: WinJS.UI.ListLayout},
+                    selectionMode: 'none',
+                    oniteminvoked: CodeBehind.showListViewInvokedItem
                 }">
                 </div>
             </div>

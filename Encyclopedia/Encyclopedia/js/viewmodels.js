@@ -3,7 +3,6 @@
     var allPagesDynamicList = new WinJS.Binding.List([]);
 
     var loadFish = function () {
-        //var fishDTOs = Data.getFishes(1);
         Data.getFishes(1).then(
         function (fishDTOs) {
 
@@ -13,8 +12,6 @@
             for (var i = 0; i < fishDTOs.length; i++) {
                 homeList.push(fishDTOs[i]);
             }
-            //check for index
-            //home page at index 0
             allPagesDynamicList[0] = homeList;
         });
 
@@ -35,11 +32,22 @@
         });      
     }
 
+    var loadDetails = function (id) {
+        return new WinJS.Promise(function (succsec) {
+            Data.getDetails(id).then(function (article) {
+               // var details = new WinJS.Binding.List([]);
+                // details.push(article);
+                var detail = WinJS.Binding.as(article);
+                succsec(detail);
+            });
+        });
+    }
+
     WinJS.Namespace.define("ViewModels", {
         loadFish: loadFish,
         homeList: homeList,
         allPagesDynamicList: allPagesDynamicList,
         loadPart: loadPart,
-
+        loadDetails: loadDetails,
     });
 })();

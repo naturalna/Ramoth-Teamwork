@@ -5,6 +5,7 @@
     var promiseArray = [];
     var allFishes = [];
     var promise = [];
+    var article = null;
 
     var generateModels = function (pageNumber) {
         allFishes = [];
@@ -59,20 +60,50 @@
                     for (var j = 0; j < jsonResult.results.length; j++) {
                         allFishes.push({
                             "name": jsonResult.results[j].title,
+                             "id": jsonResult.results[j].id,
                         });
                     }
-                }).then(function () { succses();});
+                })
+                    .then(function () { succses(); });
             });
 
-            //new WinJS.Promise.join(promise).then(function () {
-            //    succses(allFishes);
-            //});
+            new WinJS.Promise.join(promise).then(function () {
+                succses(allFishes);
+            });
         });
     };
+
+    var getDetails = function (id) {
+        article = null;
+        return new WinJS.Promise(function (success, error) {
+
+            var promise = APIRequests.getFishData(id).then(function (json) {
+
+                for (var j = 0; j < json.dataObjects.length; j++) {
+                    if (json.dataObjects[j].eolMediaURL != undefined) {
+                        article ={
+                            "name": json.dataObjects[j].title,
+                            "discription": json.dataObjects[j].description,
+                            "imageURL": json.dataObjects[j].eolMediaURL
+                        };
+
+                        var patt = new RegExp(pattern, "igm");
+
+                        article.discription
+                        success(article);
+                        break;
+                    }
+                }
+            });
+        });
+    };
+
     //we can add voltes
     WinJS.Namespace.define("Data", {
-        getFishes: generateModels,
-        allFishes: allFishes
+        getFishes: takeModels,
+        allFishes: allFishes,
+        getDetails: getDetails,
+        article: article
     });
 
 }());
