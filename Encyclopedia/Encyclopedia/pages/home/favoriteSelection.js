@@ -9,6 +9,8 @@
                 selectedFiles.push(JSON.stringify(item.data));
                 //TODO
                 //sessionstate
+
+                WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
             });
         })
     };

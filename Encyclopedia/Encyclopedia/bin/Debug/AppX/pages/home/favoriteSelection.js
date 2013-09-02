@@ -9,6 +9,8 @@
                 selectedFiles.push(JSON.stringify(item.data));
                 //TODO
                 //sessionstate
+
+                WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
             });
         })
     };
@@ -63,6 +65,9 @@
             lView = document.getElementById("listView").winControl;
             lView.selection.clear();
 
+        }, function (error) {
+            var msg = new Windows.UI.Popups.MessageDialog("No file found");
+            msg.showAsync();
         })
     };
 

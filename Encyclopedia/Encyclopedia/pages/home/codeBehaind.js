@@ -24,12 +24,7 @@
 
     WinJS.Namespace.define("HomeCodeBehind", {
         callLoadFishesHomePage: function () {
-            ViewModels.loadFish().then(
-                function () { },
-                function (error) {
-                    var msg = new Windows.UI.Popups.MessageDialog("Pleace try again later.");
-                    msg.showAsync();
-                });
+            ViewModels.loadFish();
         },
 
         goToPage: goToPage,

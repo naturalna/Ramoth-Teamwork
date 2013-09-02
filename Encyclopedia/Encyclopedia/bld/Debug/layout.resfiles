@@ -10,6 +10,7 @@ js\dataLayer.js
 js\default.js
 js\models.js
 js\navigator.js
+js\TerminatedStates.js
 js\viewmodels.js
 pages\details\details.css
 pages\details\details.html
