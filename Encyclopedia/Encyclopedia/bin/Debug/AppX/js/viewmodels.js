@@ -29,17 +29,30 @@
                 allPagesDynamicList[partNumber] = parts;
                 succsec(parts);
             });
-        });      
+        });
     }
 
     var loadDetails = function (id) {
         return new WinJS.Promise(function (succsec) {
             Data.getDetails(id).then(function (article) {
-               // var details = new WinJS.Binding.List([]);
+                // var details = new WinJS.Binding.List([]);
                 // details.push(article);
                 var detail = WinJS.Binding.as(article);
                 succsec(detail);
             });
+        });
+    }
+
+    var getFavorite = function () {
+        return new WinJS.Promise(function (success) {
+            var models = Data.getFavoriteModels();
+            var observableFiles = new WinJS.Binding.List([]);
+
+            for (var i = 0; i < models.length; i++) {
+                observableFiles.push(models[i]);
+            }
+
+            success(observableFiles);
         });
     }
 
@@ -49,5 +62,6 @@
         allPagesDynamicList: allPagesDynamicList,
         loadPart: loadPart,
         loadDetails: loadDetails,
+        getFavorite: getFavorite,
     });
 })();

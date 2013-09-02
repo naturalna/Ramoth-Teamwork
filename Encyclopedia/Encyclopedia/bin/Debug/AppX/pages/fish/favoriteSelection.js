@@ -10,20 +10,17 @@
                 //TODO
                 //sessionstate
             });
-            
         })
     };
 
     var favoriteFileSaver = function (event) {
         var roamingSettings = Windows.Storage.ApplicationData.current.roamingSettings;
-        //var roamingStorageQuota = Windows.Storage.ApplicationData.current.roamingStorageQuota;
         var lastFavoriteList = roamingSettings.values['favoriteList'];
         if (lastFavoriteList === undefined) {
             lastFavoriteList = [];
         } else {
             lastFavoriteList = JSON.parse(lastFavoriteList);
         }
-
 
         for (var i = 0; i < selectedFiles.length; i++) {
             lastFavoriteList.push(selectedFiles[i]);
@@ -35,7 +32,6 @@
 
         lView = document.getElementById("listView").winControl;
         lView.selection.clear();
-
     };
 
     document.getElementById("cmdAdd").addEventListener("click", favoriteFileSaver);

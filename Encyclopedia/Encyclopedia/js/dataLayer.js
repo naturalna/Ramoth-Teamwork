@@ -101,12 +101,31 @@
         });
     };
 
+    var getFavoriteModels = function () {
+        var roamingSettings = Windows.Storage.ApplicationData.current.roamingSettings;
+        var lastFavoriteList = roamingSettings.values['favoriteList'];
+        var result = [];
+
+        if (lastFavoriteList === undefined) {
+            lastFavoriteList = [];
+        } else {
+            var allFiles = JSON.parse(lastFavoriteList);
+            for (var i = 0; i < allFiles.length; i++) {
+                result.push(JSON.parse(allFiles[i]));
+            }
+        }
+
+        //todo details
+        return result;
+    };
+
     //we can add voltes
     WinJS.Namespace.define("Data", {
         getFishes: takeModels,
         allFishes: allFishes,
         getDetails: getDetails,
-        article: article
+        article: article,
+        getFavoriteModels: getFavoriteModels,
     });
 
 }());

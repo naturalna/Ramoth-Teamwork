@@ -70,12 +70,16 @@
     <Content Include="pages\details\details.html" />
     <Content Include="pages\details\details.js" />
     <Content Include="pages\details\template.html" />
+    <Content Include="pages\favoriteList\favoriteList.css" />
+    <Content Include="pages\favoriteList\favoriteList.html" />
+    <Content Include="pages\favoriteList\favoriteList.js" />
     <Content Include="pages\fish\codeBehind.js" />
     <Content Include="pages\fish\favoriteSelection.js" />
     <Content Include="pages\fish\fish.css" />
     <Content Include="pages\fish\fish.html" />
     <Content Include="pages\fish\fish.js" />
     <Content Include="pages\home\codeBehaind.js" />
+    <Content Include="pages\home\favoriteSelection.js" />
     <Content Include="pages\home\home.css" />
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />

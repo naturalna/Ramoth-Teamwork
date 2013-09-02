@@ -34,9 +34,18 @@
         lView.selection.clear();
     };
 
+    var showFavorite = function (event) {
+
+        WinJS.Navigation.navigate("/pages/favoriteList/favoriteList.html", {
+        });
+
+    };
+
+    document.getElementById("showFavorite").addEventListener("click", showFavorite);
     document.getElementById("cmdAdd").addEventListener("click", favoriteFileSaver);
 
     WinJS.Utilities.markSupportedForProcessing(addSelectionToFavorite);
+    WinJS.Utilities.markSupportedForProcessing(showFavorite);
 
     WinJS.Namespace.define("FavoriteSelection", {
         addSelectionToFavorite: addSelectionToFavorite,

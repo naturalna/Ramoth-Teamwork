@@ -12,6 +12,7 @@
     <link href="/css/default.css" rel="stylesheet" />
     <link href="/pages/home/home.css" rel="stylesheet" />
     <script src="codeBehaind.js"></script>
+    <script src="favoriteSelection.js"></script>
     <script src="/pages/home/home.js"></script>
 </head>
 <body>
@@ -36,14 +37,14 @@
             <div id="listOfAll">
                 <!--template-->
 
-                <div data-win-control="WinJS.UI.ListView"
+                <div id="listView" data-win-control="WinJS.UI.ListView"
                     data-win-options="{
                     itemDataSource: ViewModels.homeList.dataSource,
                     itemTemplate: select('#short-fish-template'), 
                     selectionMode: 'multi',
                     layout : {type: WinJS.UI.ListLayout},
                     oniteminvoked: HomeCodeBehind.showListViewInvokedItem,
-                    onselectionchanged: HomeCodeBehind.addSelectionToFavorite,
+                    onselectionchanged: FavoriteSelection.addSelectionToFavorite,
                 }">
                 </div>
             </div>

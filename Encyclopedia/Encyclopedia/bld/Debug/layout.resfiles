@@ -15,12 +15,16 @@ pages\details\details.css
 pages\details\details.html
 pages\details\details.js
 pages\details\template.html
+pages\favoriteList\favoriteList.css
+pages\favoriteList\favoriteList.html
+pages\favoriteList\favoriteList.js
 pages\fish\codeBehind.js
 pages\fish\favoriteSelection.js
 pages\fish\fish.css
 pages\fish\fish.html
 pages\fish\fish.js
 pages\home\codeBehaind.js
+pages\home\favoriteSelection.js
 pages\home\home.css
 pages\home\home.html
 pages\home\home.js
