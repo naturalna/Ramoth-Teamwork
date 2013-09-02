@@ -1,6 +1,9 @@
 ﻿(function () {
 
     var goToPage = function (pageIndex) {
+        if (pageIndex > 41) {
+            pageIndex = 1;
+        }
         WinJS.Navigation.navigate("/pages/fish/fish.html", {
             pageIndex: pageIndex
         });
@@ -26,7 +29,6 @@
     WinJS.Namespace.define("CodeBehind", {
 
         goToPage: goToPage,
-        showListViewInvokedItem: showListViewInvokedItem,
-       
+        showListViewInvokedItem: showListViewInvokedItem,       
     })
 })();

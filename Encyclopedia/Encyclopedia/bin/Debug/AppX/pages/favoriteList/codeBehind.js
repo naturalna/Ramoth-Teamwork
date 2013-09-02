@@ -12,8 +12,6 @@
         });
     }
 
-
-   
     WinJS.Utilities.markSupportedForProcessing(showListViewInvokedItem);
 
 
