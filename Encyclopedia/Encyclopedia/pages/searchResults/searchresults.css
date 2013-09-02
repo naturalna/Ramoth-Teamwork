@@ -192,3 +192,34 @@
         margin-right: 70px;
     }
 }
+
+.searchResultListOfAll {
+    padding-right: 240px;
+    margin-top: 193px;
+    margin-left:120px;
+}
+
+.win-listview {
+    width:40%;
+    height:450px;
+}
+
+.searchresults{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.win-listview 
+{
+    width:40%;
+    height:450px;
+}
+.win-item {
+    width:500px;
+    height:25px;
+}
+
+
+#listView {
+	width: 500px;
+	height: 500px;   
+}

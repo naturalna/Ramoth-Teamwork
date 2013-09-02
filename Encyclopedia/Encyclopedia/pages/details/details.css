@@ -22,9 +22,10 @@
     display:block;
 }
 #template {
-    width:70%;
-    height:400px;
+    width: 80%;
+    height: 700px;
     overflow-y:scroll;
-    background-color:firebrick;
+    background-color: #2B2B2B;
+    color: #EBAF3C;
     padding:20px;
 }

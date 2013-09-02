@@ -1,7 +1,5 @@
 ﻿(function () {
 
-
-
     var printManager = Windows.Graphics.Printing.PrintManager.getForCurrentView();
     printManager.onprinttaskrequested = onPrintTaskRequested;
 

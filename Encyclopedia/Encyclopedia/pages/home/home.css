@@ -22,6 +22,12 @@
     height:450px;
 }
 .win-item {
-    height:100px;
-    width:100px;
+    width:500px;
+    height:25px;
+}
+#nextPage {
+    margin-top: 10px;
+}
+#homeListSection {
+    margin-top: 65px;
 }

@@ -74,7 +74,7 @@
 
     var searchList = new WinJS.Binding.List([]);
 
-    var searchQueryByAni = function (queryText) {
+    var searchQuery = function (queryText) {
         Data.search(queryText).then(function (searchedFishes) {
             searchList.splice(0, fishList.length);
 
@@ -84,6 +84,11 @@
         });
     };
 
+    var changeSearchQuery = function (text) {
+        searchQueryText.queryText = text;
+        fishList.notifyReload();
+    }
+
     WinJS.Namespace.define("ViewModels", {
         loadFish: loadFish,
         homeList: homeList,
@@ -92,9 +97,9 @@
         loadDetails: loadDetails,
         getFavorite: getFavorite,
 
+        submitSearchText: changeSearchQuery,
         searchList: searchList,
         searchQuery: searchQueryText,
-        searchForFishes: searchQueryByAni,
-       // searchQuery: searchQuery
+        searchForFishes: searchQuery
     });
 })();

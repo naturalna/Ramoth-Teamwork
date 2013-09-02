@@ -12,35 +12,40 @@
 
     <link href="/css/default.css" rel="stylesheet" />
     <link href="/pages/searchResults/searchresults.css" rel="stylesheet" />
+    <script src="CodeBehaind.js"></script>
     <script src="/js/data.js"></script>
 </head>
 <body>
-    <!-- This template is used to display each item in the ListView declared
-         below. -->
-    <div id="search-item-template" class="itemtemplate" data-win-control="WinJS.Binding.Template">
-        <div >
-            <h3 data-win-bind="innerText: name"></h3>            
+    <div class="searchPage">
+        <!-- This template is used to display each item in the ListView declared
+             below. -->
+        <div id="search-item-template" class="itemtemplate" data-win-control="WinJS.Binding.Template">
+            <div >
+                <h3 data-win-bind="innerText: name"></h3>            
+            </div>
         </div>
-    </div>
 
-    <!-- The content that will be loaded and displayed. -->
-    <div class="searchresults fragment">
-        <header aria-label="Header content" role="banner">
-            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
-            <div class="titlearea">
-                <h1 class="pagetitle win-type-ellipsis">Search Results for: <span data-win-bind="innerText: searchQuery.queryText"></span></h1>
-                <h2 class="pagesubtitle win-type-ellipsis"></h2>
-            </div>
-        </header>
-        <section aria-label="Main content" role="main">
-            <div data-win-control="WinJS.UI.ListView"
-                data-win-options="{
-                    itemTemplate: select('#search-item-template'),
-                    itemDataSource: ViewModels.searchList.dataSource,
-                    oniteminvoked: CodeBehind.showListViewInvokedItem,
-                }">
-            </div>
-        </section>
+        <!-- The content that will be loaded and displayed. -->
+        <div class="searchresults fragment">
+            <header aria-label="Header content" role="banner">
+                <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+                <div class="titlearea">
+                    <h1 class="pagetitle win-type-ellipsis">Search Results for: <span data-win-bind="innerText: searchQuery.queryText"></span></h1>
+                    <h2 class="pagesubtitle win-type-ellipsis"></h2>
+                </div>
+            </header>
+            <section aria-label="Main content" role="main">
+                <div class="searchResultListOfAll">
+                    <div id="listView" data-win-control="WinJS.UI.ListView"
+                        data-win-options="{
+                            itemTemplate: select('#search-item-template'),
+                            itemDataSource: ViewModels.searchList.dataSource,
+                            oniteminvoked: CodeBehind.showListViewInvokedItem,
+                        }">
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
 </body>
 </html>
