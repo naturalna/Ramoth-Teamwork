@@ -56,6 +56,32 @@
         });
     }
 
+    // things for the search contract
+    var fishList = new WinJS.Binding.List(homeList);
+
+    var searchQuery = WinJS.Binding.as({ queryText: "" });
+
+    var filteredFishes = fishList.createFiltered(function (item) {
+        var queryIndexInItemString =
+            JSON.stringify(item).indexOf(searchQuery.queryText);
+
+        var isSelected = queryIndexInItemString > -1;
+
+        return isSelected;
+    });
+
+    var changeSearchQuery = function (text) {
+        searchQuery.queryText = text;
+        fishList.notifyReload();
+    }
+
+    var submitQuery = function (query) {
+        searchQuery.queryText = query.queryText;
+        //searchQuery.priceRangeStart = query.priceRangeStart;
+        //searchQuery.priceRangeLast = query.priceRangeLast;
+        fishList.notifyReload();
+    }
+
     WinJS.Namespace.define("ViewModels", {
         loadFish: loadFish,
         homeList: homeList,
@@ -63,5 +89,11 @@
         loadPart: loadPart,
         loadDetails: loadDetails,
         getFavorite: getFavorite,
+
+        // things for the search contract
+        searchForFishes: filteredFishes,
+        submitSearchText: changeSearchQuery,
+        submitSearchQuery: submitQuery,
+        searchQuery: searchQuery
     });
 })();

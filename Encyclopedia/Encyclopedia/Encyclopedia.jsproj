@@ -83,6 +83,9 @@
     <Content Include="pages\home\home.css" />
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />
+    <Content Include="pages\searchResults\searchresults.css" />
+    <Content Include="pages\searchResults\searchresults.html" />
+    <Content Include="pages\searchResults\searchresults.js" />
     <None Include="Encyclopedia_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

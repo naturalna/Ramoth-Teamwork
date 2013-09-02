@@ -28,3 +28,6 @@ pages\home\favoriteSelection.js
 pages\home\home.css
 pages\home\home.html
 pages\home\home.js
+pages\searchResults\searchresults.css
+pages\searchResults\searchresults.html
+pages\searchResults\searchresults.js
