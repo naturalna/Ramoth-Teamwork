@@ -17,20 +17,16 @@
             });
         });
     }
-    var addSelectionToFavorite = function () {
-    };
+
 
     WinJS.Utilities.markSupportedForProcessing(goToPage);
     WinJS.Utilities.markSupportedForProcessing(showListViewInvokedItem);
-    WinJS.Utilities.markSupportedForProcessing(addSelectionToFavorite);
+    
 
     WinJS.Namespace.define("CodeBehind", {
-        //callLoadFishesHomePage: function () {
-        //    ViewModels.loadFish();
-        //},
 
         goToPage: goToPage,
         showListViewInvokedItem: showListViewInvokedItem,
-        addSelectionToFavorite: addSelectionToFavorite,
+       
     })
 })();

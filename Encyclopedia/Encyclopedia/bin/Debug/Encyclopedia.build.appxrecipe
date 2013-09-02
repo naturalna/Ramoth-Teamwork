@@ -71,6 +71,9 @@
     <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.js">
       <PackagePath>pages\details\details.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\codeBehind.js">
+      <PackagePath>pages\favoriteList\codeBehind.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.js">
       <PackagePath>pages\favoriteList\favoriteList.js</PackagePath>
     </AppxPackagedFile>

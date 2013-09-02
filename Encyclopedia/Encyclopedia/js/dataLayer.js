@@ -83,11 +83,9 @@
                         article = {
                            
                             "discription": json.dataObjects[j].description,
-                            "imageURL": json.dataObjects[j].eolMediaURL
+                            
                         };
-                        if (article.imageURL === undefined) {
-                            article.imageURL = "/images/PhotoNotAvailable.jpg";
-                        }
+                       
                         
                         //removing scripts
                         article.discription = toStaticHTML(article.discription);

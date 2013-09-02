@@ -1,10 +1,4 @@
 ﻿(function () {
-
-    var goToPage = function (pageIndex) {
-        WinJS.Navigation.navigate("/pages/fish/fish.html", {
-            pageIndex: pageIndex
-        });
-    }
     var showListViewInvokedItem = function (event) {
 
         //var triggeringListView = event.srcElement.winControl;
@@ -19,14 +13,12 @@
     }
 
 
-    WinJS.Utilities.markSupportedForProcessing(goToPage);
+   
     WinJS.Utilities.markSupportedForProcessing(showListViewInvokedItem);
-    
+
 
     WinJS.Namespace.define("CodeBehind", {
 
-        goToPage: goToPage,
         showListViewInvokedItem: showListViewInvokedItem,
-       
     })
 })();

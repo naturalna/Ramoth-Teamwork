@@ -15,6 +15,7 @@ pages\details\details.css
 pages\details\details.html
 pages\details\details.js
 pages\details\template.html
+pages\favoriteList\codeBehind.js
 pages\favoriteList\favoriteList.css
 pages\favoriteList\favoriteList.html
 pages\favoriteList\favoriteList.js

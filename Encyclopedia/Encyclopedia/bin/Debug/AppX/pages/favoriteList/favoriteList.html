@@ -11,6 +11,7 @@
 
     <link href="favoriteList.css" rel="stylesheet" />
     <script src="../../js/viewmodels.js"></script>
+    <script src="codeBehind.js"></script>
     <script src="favoriteList.js"></script>
 </head>
 <body>
@@ -32,7 +33,7 @@
             <p>Content goes here.</p>
             <div id="listView" data-win-control="WinJS.UI.ListView"
                     data-win-options="{
-                   
+                    oniteminvoked: CodeBehind.showListViewInvokedItem,
                     itemTemplate: select('#favorite-template'), 
                 }">
                 </div>
