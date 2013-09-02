@@ -37,3 +37,12 @@ C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Deb
 C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\layout.resfiles.intermediate
 C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\resources.resfiles.intermediate
 C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\pri.resfiles.intermediate
+E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\resources.pri
+E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\AppxManifest.xml
+E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\Encyclopedia.build.appxrecipe
+E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\priconfig.xml
+E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\layout.resfiles
+E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\resources.resfiles
+E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\pri.resfiles
+E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\LanguageQualifiers.txt
+E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\ProjectArchitectures.txt

@@ -27,7 +27,6 @@
             WinJS.Binding.processAll(element, ViewModels);
 
             ViewModels.submitSearchText(options.queryText);
-
         }
     });
 

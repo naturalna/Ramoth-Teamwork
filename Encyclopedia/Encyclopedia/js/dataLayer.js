@@ -78,25 +78,24 @@
         return new WinJS.Promise(function (success, error) {
 
             var promise = APIRequests.getFishData(id).then(function (json) {
-                for (var j = json.dataObjects.length -1 ; j >= 0 ; j--) {
-                    if (json.dataObjects[j].eolMediaURL !== undefined && json.dataObjects[j].description !== undefined) {
+                for (var j = 0 ; j < json.dataObjects.length ; j++) {
+                    if (json.dataObjects[j].description !== undefined) {
                         article = {
                            
                             "discription": json.dataObjects[j].description,
                             "imageURL": json.dataObjects[j].eolMediaURL
                         };
+                        if (article.imageURL === undefined) {
+                            article.imageURL = "/images/PhotoNotAvailable.jpg";
+                        }
+                        
+                        //removing scripts
+                        article.discription = toStaticHTML(article.discription);
+                      
                         success(article);
                         return article;
                     }                   
                 }
-
-                //var clearHTML = toStaticHTML(article.discription);
-                //article.discription = clearHTML;
-                //if (article.imageURL === undefined) {
-                //    article.imageURL = "/images/PhotoNotAvailable.jpg";
-                //}
-
-               
             });
         });
     };
@@ -119,6 +118,16 @@
         return result;
     };
 
+    var search = function () {
+        var result;
+        return new WinJS.Promise(success, error)
+        {
+            //result = api....
+
+            success(result);
+        }
+    }
+
     //we can add voltes
     WinJS.Namespace.define("Data", {
         getFishes: takeModels,
@@ -126,6 +135,7 @@
         getDetails: getDetails,
         article: article,
         getFavoriteModels: getFavoriteModels,
+        search: search,
     });
 
 }());

@@ -57,30 +57,39 @@
     }
 
     // things for the search contract
-    var fishList = new WinJS.Binding.List(homeList);
+    var searchQuery = function () {
+       var fishList = new WinJS.Binding.List([]);
+       // var searchQuery = WinJS.Binding.as({ queryText: "" });
+        Data.search().then(function (result) {
 
-    var searchQuery = WinJS.Binding.as({ queryText: "" });
+            fishList.push(result);
+        });
+        
 
-    var filteredFishes = fishList.createFiltered(function (item) {
-        var queryIndexInItemString =
-            JSON.stringify(item).indexOf(searchQuery.queryText);
+        var filteredFishes = fishList.createFiltered(function (item) {
+            var queryIndexInItemString =
+                JSON.stringify(item).indexOf(searchQuery.queryText);
 
-        var isSelected = queryIndexInItemString > -1;
+            var isSelected = queryIndexInItemString > -1;
 
-        return isSelected;
-    });
+            return isSelected;
+        });
 
-    var changeSearchQuery = function (text) {
-        searchQuery.queryText = text;
-        fishList.notifyReload();
-    }
+        var changeSearchQuery = function (text) {
+            searchQuery.queryText = text;
+            fishList.notifyReload();
+        }
 
-    var submitQuery = function (query) {
-        searchQuery.queryText = query.queryText;
-        //searchQuery.priceRangeStart = query.priceRangeStart;
-        //searchQuery.priceRangeLast = query.priceRangeLast;
-        fishList.notifyReload();
-    }
+        var submitQuery = function (query) {
+            searchQuery.queryText = query.queryText;
+            //searchQuery.priceRangeStart = query.priceRangeStart;
+            //searchQuery.priceRangeLast = query.priceRangeLast;
+            fishList.notifyReload();
+        }
+
+    };
+
+    
 
     WinJS.Namespace.define("ViewModels", {
         loadFish: loadFish,
@@ -91,9 +100,9 @@
         getFavorite: getFavorite,
 
         // things for the search contract
-        searchForFishes: filteredFishes,
-        submitSearchText: changeSearchQuery,
-        submitSearchQuery: submitQuery,
+        //searchForFishes: filteredFishes,
+        //submitSearchText: changeSearchQuery,
+       // submitSearchQuery: submitQuery,
         searchQuery: searchQuery
     });
 })();
