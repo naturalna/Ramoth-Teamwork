@@ -88,6 +88,7 @@
     <Content Include="pages\home\home.css" />
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />
+    <Content Include="pages\searchResults\CodeBehaind.js" />
     <Content Include="pages\searchResults\searchresults.css" />
     <Content Include="pages\searchResults\searchresults.html" />
     <Content Include="pages\searchResults\searchresults.js" />

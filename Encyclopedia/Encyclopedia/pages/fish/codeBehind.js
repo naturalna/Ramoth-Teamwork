@@ -10,8 +10,6 @@
     }
     var showListViewInvokedItem = function (event) {
 
-        //var triggeringListView = event.srcElement.winControl;
-
         event.detail.itemPromise.then(function (item) {
             var articleData = item.data;
 

@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-02T20:12:05.301</Modified>
+      <Modified>2013-09-02T20:24:12.869</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -122,7 +122,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\codeBehind.js">
       <PackagePath>pages\fish\codeBehind.js</PackagePath>
-      <Modified>2013-09-02T19:35:13.836</Modified>
+      <Modified>2013-09-02T20:19:57.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\favoriteSelection.js">
       <PackagePath>pages\fish\favoriteSelection.js</PackagePath>
@@ -143,6 +143,10 @@
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
       <Modified>2013-09-02T19:46:02.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\CodeBehaind.js">
+      <PackagePath>pages\searchResults\CodeBehaind.js</PackagePath>
+      <Modified>2013-09-02T20:23:19.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.js">
       <PackagePath>pages\searchResults\searchresults.js</PackagePath>
@@ -174,11 +178,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.html">
       <PackagePath>pages\searchResults\searchresults.html</PackagePath>
-      <Modified>2013-09-02T19:35:11.458</Modified>
+      <Modified>2013-09-02T20:27:38.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-09-02T19:35:13.872</Modified>
+      <Modified>2013-09-02T20:24:12.742</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
