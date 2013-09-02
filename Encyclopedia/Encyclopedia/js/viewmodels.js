@@ -89,8 +89,6 @@
 
     };
 
-    
-
     WinJS.Namespace.define("ViewModels", {
         loadFish: loadFish,
         homeList: homeList,

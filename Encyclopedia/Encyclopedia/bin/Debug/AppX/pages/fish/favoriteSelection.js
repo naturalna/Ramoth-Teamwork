@@ -60,7 +60,7 @@
     };
 
     document.getElementById("cmdAdd").addEventListener("click", favoriteFileSaver);
-    document.getElementById("saveAsPDF").addEventListener("click", genrateWord);
+    document.getElementById("saveAsHTML").addEventListener("click", genrateWord);
 
     WinJS.Utilities.markSupportedForProcessing(addSelectionToFavorite);
 

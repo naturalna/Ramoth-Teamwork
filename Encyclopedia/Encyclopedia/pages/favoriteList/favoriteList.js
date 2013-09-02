@@ -10,6 +10,9 @@
             ViewModels.getFavorite().done(function (bindingList) {
                 var listv = document.getElementById("listView").winControl;
                 listv.itemDataSource = bindingList.dataSource;
+            }, function (error) {
+                var msg = new Windows.UI.Popups.MessageDialog("Pleace try again later.");
+                msg.showAsync();
             });
         },
 

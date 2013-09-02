@@ -21,6 +21,9 @@
                         CodeBehind.goToPage(nextPageIndex);
                     });
                 });
+            }, function (error) {
+                var msg = new Windows.UI.Popups.MessageDialog("Pleace try again later.");
+                msg.showAsync();
             });
         },
 

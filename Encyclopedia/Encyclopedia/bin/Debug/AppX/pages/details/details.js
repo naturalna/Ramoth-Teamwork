@@ -7,7 +7,7 @@
         // This function is called whenever a user navigates to this page. It
         // populates the page elements with the app's data.
         ready: function (element, options) {
-            
+
             ViewModels.loadDetails(options.articleId).then(
                 function (list) {
                     WinJS.UI.processAll().then(function () {
@@ -19,11 +19,14 @@
                         progress.innerHTML = "";
                         var container = document.getElementById("container");
                         template.render(list, container);
+                        var msg = new Windows.UI.Popups.MessageDialog("Pleace try again later.");
+                        msg.showAsync();
                     }
                 );
+                }, function (error) {
+                    var msg = new Windows.UI.Popups.MessageDialog("Pleace try again later.");
+                    msg.showAsync();
                 });
-
-
         },
 
         //unload: function () {

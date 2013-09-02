@@ -63,12 +63,15 @@
             lView = document.getElementById("listView").winControl;
             lView.selection.clear();
 
+        }, function (error) {
+            var msg = new Windows.UI.Popups.MessageDialog("No file found");
+            msg.showAsync();
         })
     };
 
     document.getElementById("showFavorite").addEventListener("click", showFavorite);
     document.getElementById("cmdAdd").addEventListener("click", favoriteFileSaver);
-    document.getElementById("saveAsPDF").addEventListener("click", genrateWord);
+    document.getElementById("saveAsHTML").addEventListener("click", genrateWord);
 
     WinJS.Utilities.markSupportedForProcessing(addSelectionToFavorite);
     WinJS.Utilities.markSupportedForProcessing(showFavorite);

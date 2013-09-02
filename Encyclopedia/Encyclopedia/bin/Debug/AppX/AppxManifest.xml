@@ -37,6 +37,11 @@
           </FileTypeAssociation>
         </Extension>
         <Extension Category="windows.search" />
+        <Extension Category="windows.shareTarget">
+          <ShareTarget>
+            <DataFormat>HTML</DataFormat>
+          </ShareTarget>
+        </Extension>
       </Extensions>
     </Application>
   </Applications>
