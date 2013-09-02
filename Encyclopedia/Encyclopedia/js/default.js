@@ -13,15 +13,19 @@
     app.addEventListener("activated", function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {
             if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
+            } else {
                 var selectedItems = WinJS.Application.sessionState["selectedFiles"];
                 if (selectedItems) {
-                    var allSelections = JSON.parse(selectedItems);
+
+                    var allSelections = [];
+                    for (var i = 0; i < selectedItems.length; i++) {
+                        allSelections.push(JSON.parse(selectedItems[i]));
+                    }
+
+                    //take objects from session and set the object in AfterTerminationObject
+                    //Session.setSessionObject(allSelections);
+                    Session.setAfterTerminationObject(allSelections);
                 }
-                
-
-
-            } else {
-                
             }
 
             if (app.sessionState.history) {

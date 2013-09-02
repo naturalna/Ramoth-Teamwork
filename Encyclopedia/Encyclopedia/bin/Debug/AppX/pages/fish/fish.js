@@ -16,7 +16,13 @@
                     var bindingList = ViewModels.allPagesDynamicList[pageIndex];
 
                     listv.itemDataSource = bindingList.dataSource;
-
+                    //termination
+                    var session = Session.getAfterTerminationObject();
+                    if (session.length > 0) {
+                        CodeBehind.selectAfterTermination(session);
+                        Session.setAfterTerminationObject([]);
+                    }
+                    //---------
                     var button = document.getElementById("click").addEventListener("click", function () {
                         CodeBehind.goToPage(nextPageIndex);
                     });
@@ -25,6 +31,8 @@
                 var msg = new Windows.UI.Popups.MessageDialog("Pleace try again later.");
                 msg.showAsync();
             });
+
+            
         },
 
         unload: function () {

@@ -11,6 +11,7 @@
                 //sessionstate
             });
         })
+        WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
     };
 
     var favoriteFileSaver = function (event) {
@@ -32,6 +33,7 @@
 
         lView = document.getElementById("listView").winControl;
         lView.selection.clear();
+        WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
     };
 
     var genrateWord = function (event) {
@@ -55,7 +57,7 @@
             selectedFiles = [];
             lView = document.getElementById("listView").winControl;
             lView.selection.clear();
-
+            WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
         })
     };
 

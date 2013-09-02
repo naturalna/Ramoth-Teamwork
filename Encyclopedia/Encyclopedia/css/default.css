@@ -72,3 +72,6 @@
         -ms-grid-columns: 29px 71px 1fr;
     }
 }
+body {
+    background-color:darkolivegreen;
+}

@@ -13,6 +13,14 @@
                 homeList.push(fishDTOs[i]);
             }
             allPagesDynamicList[0] = homeList;
+
+            //sessionState
+            var session = Session.getAfterTerminationObject();
+            if (session.length > 0) {
+                HomeCodeBehind.selectAfterTermination(session);
+                Session.setAfterTerminationObject([]);
+            }
+            //----------------
         },
         function (error) {
             var msg = new Windows.UI.Popups.MessageDialog("Pleace try again later.");
@@ -83,9 +91,10 @@
         loadPart: loadPart,
         loadDetails: loadDetails,
         getFavorite: getFavorite,
-        // search stuff
+
         searchList: searchList,
         searchQuery: searchQueryText,
-        searchForFishes: searchQueryByAni
+        searchForFishes: searchQueryByAni,
+       // searchQuery: searchQuery
     });
 })();

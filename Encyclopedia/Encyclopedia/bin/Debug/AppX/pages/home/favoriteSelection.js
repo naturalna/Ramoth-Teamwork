@@ -10,8 +10,10 @@
                 //TODO
                 //sessionstate
 
-                WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
+               
             });
+
+            WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
         })
     };
 
@@ -34,6 +36,7 @@
 
         lView = document.getElementById("listView").winControl;
         lView.selection.clear();
+        WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
     };
 
     var showFavorite = function (event) {
@@ -64,6 +67,7 @@
             selectedFiles = [];
             lView = document.getElementById("listView").winControl;
             lView.selection.clear();
+            WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
 
         }, function (error) {
             var msg = new Windows.UI.Popups.MessageDialog("No file found");
