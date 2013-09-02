@@ -41,8 +41,34 @@
 
     };
 
+    var genrateWord = function (event) {
+
+        var savePicker = new Windows.Storage.Pickers.FileSavePicker();
+        savePicker.defaultFileExtension = ".html"
+        savePicker.fileTypeChoices.insert("Plain Text", [".html"])
+
+        savePicker.suggestedFileName = "New Document";
+
+        savePicker.pickSaveFileAsync().then(function (file) {
+
+
+            for (var i = 0; i < selectedFiles.length; i++) {
+                var objectSelect = JSON.parse(selectedFiles[i]);
+                ViewModels.loadDetails(objectSelect.id).then(function (data) {
+                    Windows.Storage.FileIO.writeTextAsync(file, data.discription);
+                });
+
+            }
+            selectedFiles = [];
+            lView = document.getElementById("listView").winControl;
+            lView.selection.clear();
+
+        })
+    };
+
     document.getElementById("showFavorite").addEventListener("click", showFavorite);
     document.getElementById("cmdAdd").addEventListener("click", favoriteFileSaver);
+    document.getElementById("saveAsPDF").addEventListener("click", genrateWord);
 
     WinJS.Utilities.markSupportedForProcessing(addSelectionToFavorite);
     WinJS.Utilities.markSupportedForProcessing(showFavorite);

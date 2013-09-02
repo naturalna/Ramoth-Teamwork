@@ -53,6 +53,8 @@
 
             }
             selectedFiles = [];
+            lView = document.getElementById("listView").winControl;
+            lView.selection.clear();
 
         })
     };
