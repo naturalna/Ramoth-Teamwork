@@ -34,26 +34,36 @@
         lView.selection.clear();
     };
 
-    var genratePDF = function (event) {
+    var genrateWord = function (event) {
 
         var savePicker = new Windows.Storage.Pickers.FileSavePicker();
-        savePicker.defaultFileExtension = ".pdf"
-        savePicker.fileTypeChoices.insert("Plain Text", [".pdf"])
+        savePicker.defaultFileExtension = ".html"
+        savePicker.fileTypeChoices.insert("Plain Text", [".html"])
 
         savePicker.suggestedFileName = "New Document";
 
         savePicker.pickSaveFileAsync().then(function (file) {
-            Windows.Storage.FileIO.writeTextAsync(file, JSON.stringify(selectedFiles));
-        }).done();
+            
+            
+            for (var i = 0; i < selectedFiles.length; i++) {
+                var objectSelect = JSON.parse(selectedFiles[i]);
+                ViewModels.loadDetails(objectSelect.id).then(function (data) {
+                    Windows.Storage.FileIO.writeTextAsync(file, data.discription);
+                });
+
+            }
+            selectedFiles = [];
+
+        })
     };
 
     document.getElementById("cmdAdd").addEventListener("click", favoriteFileSaver);
-    document.getElementById("saveAsPDF").addEventListener("click", genratePDF);
+    document.getElementById("saveAsPDF").addEventListener("click", genrateWord);
 
     WinJS.Utilities.markSupportedForProcessing(addSelectionToFavorite);
 
     WinJS.Namespace.define("FavoriteSelection", {
         addSelectionToFavorite: addSelectionToFavorite,
-        genratePDF: genratePDF,
+        genrateWord: genrateWord,
     })
 })();

@@ -19,9 +19,22 @@
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="images\splashscreen.png" />
       </VisualElements>
+      <Extensions>
+        <Extension Category="windows.fileTypeAssociation">
+          <FileTypeAssociation Name="generator">
+            <DisplayName>generator</DisplayName>
+            <EditFlags OpenIsSafe="true" />
+            <SupportedFileTypes>
+              <FileType>.html</FileType>
+            </SupportedFileTypes>
+          </FileTypeAssociation>
+        </Extension>
+        <Extension Category="windows.search" />
+      </Extensions>
     </Application>
   </Applications>
   <Capabilities>
+    <Capability Name="documentsLibrary" />
     <Capability Name="internetClient" />
   </Capabilities>
 </Package>
