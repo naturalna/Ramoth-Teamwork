@@ -107,6 +107,9 @@
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\printer.js">
+      <PackagePath>pages\home\printer.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\CodeBehaind.js">
       <PackagePath>pages\searchResults\CodeBehaind.js</PackagePath>
     </AppxPackagedFile>
