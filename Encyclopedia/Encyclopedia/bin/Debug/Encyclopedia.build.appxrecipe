@@ -31,6 +31,10 @@
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.css">
       <PackagePath>pages\searchResults\searchresults.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\CoolesSplashscreen.png">
+      <PackagePath>images\CoolesSplashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\fish%28150x150%29-100.png">
       <PackagePath>images\fish%28150x150%29-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -51,7 +55,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>

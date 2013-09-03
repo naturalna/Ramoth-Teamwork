@@ -5,7 +5,7 @@
     <WindowsUser>bbbb</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>C8E7E49FA58EC2ED10B83742EE0A8392E5E290DB539B0F1DE395B497A360E3D6</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>D6EBB77E82F9146DB672876633CFAE4A30F5CDFDAF7829A3B25D5E990BA2F75D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>04814490-06bc-4509-bd5c-3192b4523524_1.0.0.0_neutral__wsdgfevyfzqbr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>04814490-06bc-4509-bd5c-3192b4523524_wsdgfevyfzqbr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>04814490-06bc-4509-bd5c-3192b4523524</RegisteredPackageID>
@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-02T22:39:48.164</Modified>
+      <Modified>2013-09-03T01:55:08.517</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,6 +44,11 @@
       <PackagePath>pages\searchResults\searchresults.css</PackagePath>
       <Modified>2013-09-03T00:13:08.406</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\CoolesSplashscreen.png">
+      <PackagePath>images\CoolesSplashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-03T01:54:13.630</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\fish%28150x150%29-100.png">
       <PackagePath>images\fish%28150x150%29-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -69,7 +74,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-09-02T22:39:28.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\storelogo.png">
@@ -186,7 +190,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-09-02T22:39:48.051</Modified>
+      <Modified>2013-09-03T01:55:08.374</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
