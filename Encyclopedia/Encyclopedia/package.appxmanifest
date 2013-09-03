@@ -4,7 +4,7 @@
   <Properties>
     <DisplayName>Encyclopedia</DisplayName>
     <PublisherDisplayName>Anna</PublisherDisplayName>
-    <Logo>images\storelogo.png</Logo>
+    <Logo>images\fishStoreLogo(50x50)-100.png</Logo>
   </Properties>
   <Prerequisites>
     <OSMinVersion>6.2.1</OSMinVersion>
@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <VisualElements DisplayName="Encyclopedia" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Encyclopedia" ForegroundText="light" BackgroundColor="#464646">
+      <VisualElements DisplayName="Encyclopedia" Logo="images\fish(150x150)-100.png" SmallLogo="images\fishSmallLogo(30x30)-100.png" Description="Encyclopedia" ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="images\splashscreen.png" />
       </VisualElements>

@@ -5,7 +5,7 @@
     <WindowsUser>academy</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>098A2878A33D7097703AA3A66688797861747E643BBA674067628CEECC9F91E1</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>FAFE292D55ED4DAB48DCFBF14265BD7024EA75A063C4FE1AD1B1609B4699C1A2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>04814490-06bc-4509-bd5c-3192b4523524_1.0.0.0_neutral__wsdgfevyfzqbr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>04814490-06bc-4509-bd5c-3192b4523524_wsdgfevyfzqbr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>04814490-06bc-4509-bd5c-3192b4523524</RegisteredPackageID>
@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-03T02:41:35.115</Modified>
+      <Modified>2013-09-03T03:50:31.887</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,14 +44,27 @@
       <PackagePath>pages\searchResults\searchresults.css</PackagePath>
       <Modified>2013-09-03T02:39:48.558</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\fish%28150x150%29-100.png">
+      <PackagePath>images\fish%28150x150%29-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-03T03:05:03.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\fishSmallLogo%2830x30%29-100.png">
+      <PackagePath>images\fishSmallLogo%2830x30%29-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-03T03:45:05.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\fishStoreLogo%2850x50%29-100.png">
+      <PackagePath>images\fishStoreLogo%2850x50%29-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-03T03:21:57.083</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-09-03T02:39:48.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-09-03T02:39:48.527</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\splashscreen.png">
@@ -61,7 +74,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-09-03T02:39:48.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\PhotoNotAvailable.jpg">
@@ -166,7 +178,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-09-03T02:41:34.257</Modified>
+      <Modified>2013-09-03T03:50:31.765</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
