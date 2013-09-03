@@ -27,7 +27,7 @@
             </h1>
         </header>
         <div id="short-fish-template" data-win-control="WinJS.Binding.Template">
-            <div>
+            <div id="fishTemplateHolder">
                   <span data-win-bind="innerText: name"></span>, 
                 <!--<span data-win-bind="innerText: discription"></span>-->
                 <!--<img src="#" data-win-bind="src: imageURL" height="100" width="100" />-->
@@ -45,8 +45,9 @@
                     onselectionchanged: FavoriteSelection.addSelectionToFavorite,
                 }">
                 </div>
+                
+                <button id="nextPage">NextPage</button>
             </div>
-            <button id="nextPage">NextPage</button>
         </section>
     </div>
 </body>

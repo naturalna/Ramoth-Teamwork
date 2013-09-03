@@ -30,19 +30,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.css">
       <PackagePath>pages\favoriteList\favoriteList.css</PackagePath>
-      <Modified>2013-09-02T22:39:28.845</Modified>
+      <Modified>2013-09-03T00:37:06.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\fish.css">
       <PackagePath>pages\fish\fish.css</PackagePath>
-      <Modified>2013-09-02T22:39:28.848</Modified>
+      <Modified>2013-09-03T00:29:51.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
-      <Modified>2013-09-02T23:22:18.369</Modified>
+      <Modified>2013-09-03T00:28:20.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.css">
       <PackagePath>pages\searchResults\searchresults.css</PackagePath>
-      <Modified>2013-09-02T23:08:25.026</Modified>
+      <Modified>2013-09-03T00:13:08.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\fish%28150x150%29-100.png">
       <PackagePath>images\fish%28150x150%29-100.png</PackagePath>
@@ -170,15 +170,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.html">
       <PackagePath>pages\favoriteList\favoriteList.html</PackagePath>
-      <Modified>2013-09-02T22:39:28.846</Modified>
+      <Modified>2013-09-03T00:37:07.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\fish.html">
       <PackagePath>pages\fish\fish.html</PackagePath>
-      <Modified>2013-09-02T22:39:28.849</Modified>
+      <Modified>2013-09-03T00:29:15.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2013-09-02T23:20:26.708</Modified>
+      <Modified>2013-09-03T00:28:20.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.html">
       <PackagePath>pages\searchResults\searchresults.html</PackagePath>

@@ -211,11 +211,14 @@
 .win-listview 
 {
     width:40%;
-    height:450px;
+    height:450px;    
+    background-color: #2B2B2B;
+    color: #EBAF3C;
 }
 .win-item {
     width:500px;
     height:25px;
+    background-color: #2B2B2B;
 }
 
 
