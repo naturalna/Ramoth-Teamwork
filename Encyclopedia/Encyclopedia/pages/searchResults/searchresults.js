@@ -21,12 +21,13 @@
     var ui = WinJS.UI;
     var utils = WinJS.Utilities;
     var searchPageURI = "/pages/searchResults/searchresults.html";
+    var search = appModel.Search;
 
     ui.Pages.define(searchPageURI, {
         ready: function (element, options) {
             WinJS.Binding.processAll(element, ViewModels);
 
-            ViewModels.submitSearchText(options.queryText);
+            ViewModels.searchForFishes(options.queryText);
         }
     });
 
@@ -42,5 +43,5 @@
         }
     });
 
-    appModel.Search.SearchPane.getForCurrentView().onquerysubmitted = function (args) { nav.navigate(searchPageURI, args); };
+    search.SearchPane.getForCurrentView().onquerysubmitted = function (args) { nav.navigate(searchPageURI, args); };
 })();

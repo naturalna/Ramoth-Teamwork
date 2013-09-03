@@ -61,36 +61,19 @@
     }
 
     // things for the search contract
-    var searchQuery = function () {
-       var fishList = new WinJS.Binding.List([]);
-       // var searchQuery = WinJS.Binding.as({ queryText: "" });
-        Data.search().then(function (result) {
+    var searchQueryText = WinJS.Binding.as({ queryText: "" });
+    var fishList = new WinJS.Binding.List([]);
 
-            fishList.push(result);
+    var searchList = new WinJS.Binding.List([]);
+
+    var searchQueryByAni = function (queryText) {
+        Data.search(queryText).then(function (searchedFishes) {
+            searchList.splice(0, fishList.length);
+
+            for (var i = 0; i < searchedFishes.length; i++) {
+                searchList.push(searchedFishes[i]);
+            }
         });
-        
-
-        var filteredFishes = fishList.createFiltered(function (item) {
-            var queryIndexInItemString =
-                JSON.stringify(item).indexOf(searchQuery.queryText);
-
-            var isSelected = queryIndexInItemString > -1;
-
-            return isSelected;
-        });
-
-        var changeSearchQuery = function (text) {
-            searchQuery.queryText = text;
-            fishList.notifyReload();
-        }
-
-        var submitQuery = function (query) {
-            searchQuery.queryText = query.queryText;
-            //searchQuery.priceRangeStart = query.priceRangeStart;
-            //searchQuery.priceRangeLast = query.priceRangeLast;
-            fishList.notifyReload();
-        }
-
     };
 
     WinJS.Namespace.define("ViewModels", {
@@ -100,11 +83,9 @@
         loadPart: loadPart,
         loadDetails: loadDetails,
         getFavorite: getFavorite,
-
-        // things for the search contract
-        //searchForFishes: filteredFishes,
-        //submitSearchText: changeSearchQuery,
-       // submitSearchQuery: submitQuery,
-        searchQuery: searchQuery
+        // search stuff
+        searchList: searchList,
+        searchQuery: searchQueryText,
+        searchForFishes: searchQueryByAni
     });
 })();

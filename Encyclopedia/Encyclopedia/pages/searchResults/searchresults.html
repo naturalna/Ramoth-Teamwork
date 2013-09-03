@@ -19,8 +19,7 @@
          below. -->
     <div id="search-item-template" class="itemtemplate" data-win-control="WinJS.Binding.Template">
         <div >
-            <h3 data-win-bind="innerText: title">Fish name</h3>
-            <img src="#" data-win-bind="src: imageUrl"/>
+            <h3 data-win-bind="innerText: name">Fish name</h3>            
         </div>
     </div>
 
@@ -37,7 +36,7 @@
             <div data-win-control="WinJS.UI.ListView"
                 data-win-options="{
                     itemTemplate: select('#search-item-template'),
-                    itemDataSource: ViewModels.searchQuery.dataSource
+                    itemDataSource: ViewModels.searchList.dataSource
                 }">
             </div>
         </section>

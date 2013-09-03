@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>PC</Machine>
-    <WindowsUser>Anna</WindowsUser>
+    <Machine>ACADEMYPCU-07</Machine>
+    <WindowsUser>academy</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>0A4A6A25C9507334D9CD13BDEAC5D38151A4EAA408AF7F5AAAF0906D0BF8139F</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>098A2878A33D7097703AA3A66688797861747E643BBA674067628CEECC9F91E1</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>04814490-06bc-4509-bd5c-3192b4523524_1.0.0.0_neutral__wsdgfevyfzqbr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>04814490-06bc-4509-bd5c-3192b4523524_wsdgfevyfzqbr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>04814490-06bc-4509-bd5c-3192b4523524</RegisteredPackageID>
@@ -13,160 +13,160 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-02T16:25:37.272</Modified>
+      <Modified>2013-09-03T02:41:35.115</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\css\default.css">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-09-02T11:09:29.180</Modified>
+      <Modified>2013-09-03T02:39:48.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.css">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.css">
       <PackagePath>pages\details\details.css</PackagePath>
-      <Modified>2013-09-02T12:36:37.281</Modified>
+      <Modified>2013-09-03T02:39:48.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.css">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.css">
       <PackagePath>pages\favoriteList\favoriteList.css</PackagePath>
-      <Modified>2013-09-02T11:09:29.192</Modified>
+      <Modified>2013-09-03T02:39:48.542</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\fish.css">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\fish.css">
       <PackagePath>pages\fish\fish.css</PackagePath>
-      <Modified>2013-09-02T11:09:29.195</Modified>
+      <Modified>2013-09-03T02:39:48.547</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.css">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
-      <Modified>2013-09-02T11:09:29.197</Modified>
+      <Modified>2013-09-03T02:39:48.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.css">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.css">
       <PackagePath>pages\searchResults\searchresults.css</PackagePath>
-      <Modified>2013-09-02T11:09:29.199</Modified>
+      <Modified>2013-09-03T02:39:48.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-02T11:09:29.182</Modified>
+      <Modified>2013-09-03T02:39:48.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-02T11:09:29.183</Modified>
+      <Modified>2013-09-03T02:39:48.527</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-02T11:09:29.183</Modified>
+      <Modified>2013-09-03T02:39:48.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-02T11:09:29.184</Modified>
+      <Modified>2013-09-03T02:39:48.530</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\PhotoNotAvailable.jpg">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\PhotoNotAvailable.jpg">
       <PackagePath>images\PhotoNotAvailable.jpg</PackagePath>
-      <Modified>2013-09-02T11:09:29.182</Modified>
+      <Modified>2013-09-03T02:39:48.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\APIRequests.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\APIRequests.js">
       <PackagePath>js\APIRequests.js</PackagePath>
-      <Modified>2013-09-02T11:09:29.185</Modified>
+      <Modified>2013-09-03T02:39:48.530</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\dataLayer.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\dataLayer.js">
       <PackagePath>js\dataLayer.js</PackagePath>
-      <Modified>2013-09-02T12:22:33.315</Modified>
+      <Modified>2013-09-03T02:45:56.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\default.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-09-02T16:26:10.825</Modified>
+      <Modified>2013-09-03T02:39:48.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\models.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\models.js">
       <PackagePath>js\models.js</PackagePath>
-      <Modified>2013-09-02T11:09:29.187</Modified>
+      <Modified>2013-09-03T02:39:48.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\navigator.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
-      <Modified>2013-09-02T11:09:29.187</Modified>
+      <Modified>2013-09-03T02:39:48.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\TerminatedStates.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\TerminatedStates.js">
       <PackagePath>js\TerminatedStates.js</PackagePath>
-      <Modified>2013-09-02T16:25:34.709</Modified>
+      <Modified>2013-09-03T02:39:48.531</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\viewmodels.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\viewmodels.js">
       <PackagePath>js\viewmodels.js</PackagePath>
-      <Modified>2013-09-02T15:26:59.586</Modified>
+      <Modified>2013-09-03T02:45:56.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.js">
       <PackagePath>pages\details\details.js</PackagePath>
-      <Modified>2013-09-02T15:05:48.737</Modified>
+      <Modified>2013-09-03T02:39:48.539</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\codeBehind.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\codeBehind.js">
       <PackagePath>pages\favoriteList\codeBehind.js</PackagePath>
-      <Modified>2013-09-02T16:10:06.474</Modified>
+      <Modified>2013-09-03T02:39:48.542</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.js">
       <PackagePath>pages\favoriteList\favoriteList.js</PackagePath>
-      <Modified>2013-09-02T15:23:28.180</Modified>
+      <Modified>2013-09-03T02:39:48.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\codeBehind.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\codeBehind.js">
       <PackagePath>pages\fish\codeBehind.js</PackagePath>
-      <Modified>2013-09-02T12:50:50.875</Modified>
+      <Modified>2013-09-03T02:39:48.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\favoriteSelection.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\favoriteSelection.js">
       <PackagePath>pages\fish\favoriteSelection.js</PackagePath>
-      <Modified>2013-09-02T14:09:41.391</Modified>
+      <Modified>2013-09-03T02:39:48.547</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\fish.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\fish.js">
       <PackagePath>pages\fish\fish.js</PackagePath>
-      <Modified>2013-09-02T15:23:50.934</Modified>
+      <Modified>2013-09-03T02:39:48.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\codeBehaind.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\codeBehaind.js">
       <PackagePath>pages\home\codeBehaind.js</PackagePath>
-      <Modified>2013-09-02T15:26:24.813</Modified>
+      <Modified>2013-09-03T02:39:48.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\favoriteSelection.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\favoriteSelection.js">
       <PackagePath>pages\home\favoriteSelection.js</PackagePath>
-      <Modified>2013-09-02T16:17:00.302</Modified>
+      <Modified>2013-09-03T02:39:48.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2013-09-02T15:19:57.981</Modified>
+      <Modified>2013-09-03T02:39:48.556</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.js">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.js">
       <PackagePath>pages\searchResults\searchresults.js</PackagePath>
-      <Modified>2013-09-02T12:08:19.657</Modified>
+      <Modified>2013-09-03T02:45:56.931</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\default.html">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-09-02T14:09:54.232</Modified>
+      <Modified>2013-09-03T02:45:54.761</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.html">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.html">
       <PackagePath>pages\details\details.html</PackagePath>
-      <Modified>2013-09-02T12:52:45.195</Modified>
+      <Modified>2013-09-03T02:39:48.539</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\template.html">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\template.html">
       <PackagePath>pages\details\template.html</PackagePath>
-      <Modified>2013-09-02T12:21:47.206</Modified>
+      <Modified>2013-09-03T02:39:48.541</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.html">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.html">
       <PackagePath>pages\favoriteList\favoriteList.html</PackagePath>
-      <Modified>2013-09-02T12:30:51.087</Modified>
+      <Modified>2013-09-03T02:39:48.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\fish.html">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\fish\fish.html">
       <PackagePath>pages\fish\fish.html</PackagePath>
-      <Modified>2013-09-02T11:09:29.195</Modified>
+      <Modified>2013-09-03T02:39:48.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.html">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2013-09-02T11:09:29.198</Modified>
+      <Modified>2013-09-03T02:39:48.556</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.html">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.html">
       <PackagePath>pages\searchResults\searchresults.html</PackagePath>
-      <Modified>2013-09-02T12:04:56.240</Modified>
+      <Modified>2013-09-03T02:45:56.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Telerik\winJS\TeamWork\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-09-02T16:25:37.130</Modified>
+      <Modified>2013-09-03T02:41:34.257</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

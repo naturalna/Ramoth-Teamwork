@@ -116,15 +116,22 @@
         return result;
     };
 
-    var search = function () {
-        var result;
-        return new WinJS.Promise(success, error)
-        {
-            //result = api....
+    var search = function (queryText) {
+        var x = APIRequests.queryForFishesSearch(queryText)
+            .then(function (jsonResult) {
+                searchedFishes = [];
 
-            success(result);
-        }
-    }
+                for (var j = 0; j < jsonResult.results.length; j++) {
+                    searchedFishes.push({
+                        "name": jsonResult.results[j].title,
+                        "id": jsonResult.results[j].id,
+                    });
+                }
+                return searchedFishes;
+            })
+
+        return x;
+    };
 
     //we can add voltes
     WinJS.Namespace.define("Data", {
