@@ -24,7 +24,11 @@
     <Application Id="App" StartPage="default.html">
       <VisualElements DisplayName="Encyclopedia" Logo="images\fish(150x150)-100.png" SmallLogo="images\fishSmallLogo(30x30)-100.png" Description="Encyclopedia" ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="allLogos" />
-        <SplashScreen Image="images\CoolesSplashscreen.png" BackgroundColor="#00AC65" />
+        <SplashScreen Image="images\CoolesSplashscreen.png" BackgroundColor="#4A75FF" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
       </VisualElements>
       <Extensions>
         <Extension Category="windows.fileTypeAssociation">
@@ -50,11 +54,11 @@
     <Capability Name="internetClient" />
   </Capabilities>
   <Dependencies>
-    <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20602" />
+    <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20789" />
   </Dependencies>
   <build:Metadata>
     <build:Item Name="VisualStudio" Version="11.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Premium 2012" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Ultimate 2012" />
     <build:Item Name="OperatingSystem" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="11.0.60610.1" />
     <build:Item Name="MakePri.exe" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />

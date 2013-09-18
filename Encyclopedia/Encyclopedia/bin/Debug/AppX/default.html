@@ -22,25 +22,28 @@
     <script src="/js/navigator.js"></script>
 </head>
 <body>
+    <header id="projectTitleSnapView" aria-label="Header content" role="banner">
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" >Fish Encyclopedia</span>
+            </h1>
+            <img id="snapViewLogo" src="images\CoolesSplashscreen.png" width="600" height="300"/>
+    </header>
     <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/home/home.html'}"></div>
-    <!-- <div id="appbar" data-win-control="WinJS.UI.AppBar">
-        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmd', label:'Command', icon:'placeholder'}" type="button"></button>
-    </div> -->
     <div id="appbar-id" data-win-control="WinJS.UI.AppBar" data-win-options="">
         <button
             data-win-control="WinJS.UI.AppBarCommand"
             data-win-options="{id:'cmdAdd',label:'Save to favorite',icon:'save',
-                section:'global',tooltip:'Add item'}">
+                section:'global',tooltip:'Save'}">
         </button>
          <button
             data-win-control="WinJS.UI.AppBarCommand"
             data-win-options="{id:'showFavorite',label:'Show favorite',icon:'emoji',
-                section:'global',tooltip:'Add item'}">
+                section:'global',tooltip:'Show favorite'}">
         </button>
          <button
             data-win-control="WinJS.UI.AppBarCommand"
             data-win-options="{id:'saveAsHTML',label:'Make File',icon:'document',
-                section:'global',tooltip:'Add item'}">
+                section:'global',tooltip:'Make file'}">
         </button>
     </div>
 </body>

@@ -9,7 +9,6 @@
     var activation = Windows.ApplicationModel.Activation;
     var nav = WinJS.Navigation;
    
-
     app.addEventListener("activated", function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {
             if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
@@ -21,13 +20,9 @@
                     for (var i = 0; i < selectedItems.length; i++) {
                         allSelections.push(JSON.parse(selectedItems[i]));
                     }
-
-                    //take objects from session and set the object in AfterTerminationObject
-                    //Session.setSessionObject(allSelections);
                     Session.setAfterTerminationObject(allSelections);
                 }
             }
-
 
             if (app.sessionState.history) {
                 nav.history = app.sessionState.history;
@@ -44,8 +39,18 @@
         }
     });
 
-    app.oncheckpoint = function (args) {
-       
+    WinJS.Application.onsettings = function (e) {
+        e.detail.applicationcommands = {
+            "privacyPolicy": {
+                title: "Privacy Policy",
+                href: "/pages/settings/privacyPolicy.html"
+            }
+        };
+
+        WinJS.UI.SettingsFlyout.populateSettings(e);
+    };
+
+    app.oncheckpoint = function (args) {      
         app.sessionState.history = nav.history;
     };
 

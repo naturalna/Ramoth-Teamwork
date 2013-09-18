@@ -14,36 +14,11 @@
     <script src="details.js"></script>
 </head>
 <body>
-    <div class="details fragment">
-        <header aria-label="Header content" role="banner">
-            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
-            <h1 class="titlearea win-type-ellipsis">
-                <span class="pagetitle">Welcome to details</span>
-            </h1>
-        </header>
-        <!--<div id="testHolder">
-            <div id="template" data-win-control="WinJS.Binding.Template">
-            <div>
-                  <span data-win-bind="innerText: name"></span>, 
-                <span data-win-bind="innerText: discription"></span>
-                <img src="#" data-win-bind="src: imageURL" height="100" width="100" />
-            </div>
-            </div>
-        </div>-->
-        
-        <section aria-label="Main content" role="main">
-            <div id="container"></div>
-            <div id="progress">
-                 <progress class="win-ring win-large" />
-            </div>
-           
-           <!-- <div id="listView" data-win-control="WinJS.UI.ListView"
-                    data-win-options="{                    
-                    itemTemplate: select('#template'), 
-                    selectionMode: 'none',
-                }">
-                </div>-->
-        </section>
+    <div class="details fragment" style="height: 408px;">
+        <div id="container" style="height: 430px;"></div>
+        <div id="progress" style="height: 148px;">
+            <progress />
+        </div>
     </div>
 </body>
 </html>

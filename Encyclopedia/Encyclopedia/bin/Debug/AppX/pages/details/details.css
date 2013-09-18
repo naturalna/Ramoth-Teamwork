@@ -17,15 +17,12 @@
     }
 }
 #template img {
-    width:100px;
-    height:100px;
     display:block;
+    width:300px;
+    height:300px;
 }
 #template {
-    width: 80%;
-    height: 700px;
-    overflow-y:scroll;
-    background-color: #2B2B2B;
-    color: #EBAF3C;
+    background-color: rgb(29,29,29);
+    color: #A2FF30;
     padding:20px;
 }

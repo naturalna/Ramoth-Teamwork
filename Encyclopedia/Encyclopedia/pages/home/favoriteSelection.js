@@ -1,16 +1,11 @@
 ﻿(function () {
     var selectedFiles = [];
     var addSelectionToFavorite = function (event) {
+        selectedFiles = [];
         var triggeringListView = this.winControl;
-
         triggeringListView.selection.getItems().then(function (items) {
-            console.log("Selected Items: ");
             items.forEach(function (item) {
-                selectedFiles.push(JSON.stringify(item.data));
-                //TODO
-                //sessionstate
-
-               
+                selectedFiles.push(JSON.stringify(item.data.id));
             });
 
             WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
@@ -40,10 +35,8 @@
     };
 
     var showFavorite = function (event) {
-
         WinJS.Navigation.navigate("/pages/favoriteList/favoriteList.html", {
         });
-
     };
 
     var genrateWord = function (event) {

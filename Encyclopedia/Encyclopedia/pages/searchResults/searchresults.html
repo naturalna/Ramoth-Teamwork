@@ -21,7 +21,8 @@
              below. -->
         <div id="search-item-template" class="itemtemplate" data-win-control="WinJS.Binding.Template">
             <div >
-                <h3 data-win-bind="innerText: name"></h3>            
+                <img src="#" data-win-bind ="src: imageURL" style ="width:120px; height:120px;"/>
+                <span data-win-bind="innerText: name"></span>            
             </div>
         </div>
 
@@ -29,10 +30,10 @@
         <div class="searchresults fragment">
             <header aria-label="Header content" role="banner">
                 <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
-                <div class="titlearea">
+                <!--<div class="titlearea">
                     <h1 class="pagetitle win-type-ellipsis">Search Results for: <span data-win-bind="innerText: searchQuery.queryText"></span></h1>
                     <h2 class="pagesubtitle win-type-ellipsis"></h2>
-                </div>
+                </div>-->
             </header>
             <section aria-label="Main content" role="main">
                 <div class="searchResultListOfAll">
@@ -41,14 +42,14 @@
                             itemTemplate: select('#search-item-template'),
                             itemDataSource: ViewModels.searchList.dataSource,
                             oniteminvoked: CodeBehind.showListViewInvokedItem,
-                            layout: {
-                                type: WinJS.UI.ListLayout
-                            }
-                        }">
+                            layout : {type: WinJS.UI.ListLayout}
+                        }" style="position: relative; width: 508px; height: 544px; left: -20px; top: -148px;">
                     </div>
                 </div>
+               
             </section>
         </div>
-    </div>
+        <div id="page-holder" style="position: relative; left: 748px; top: -132px; height: 540px; width: 508px;"></div>
+    </div>  
 </body>
 </html>

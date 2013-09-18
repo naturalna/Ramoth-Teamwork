@@ -1,22 +1,18 @@
 ﻿(function () {
     var showListViewInvokedItem = function (event) {
-
-        //var triggeringListView = event.srcElement.winControl;
-
         event.detail.itemPromise.then(function (item) {
             var articleData = item.data;
-
-            WinJS.Navigation.navigate("/pages/details/details.html", {
-                articleId: articleData.id,
+            var pageHolder = document.getElementById("page-holder");
+            pageHolder.innerHTML = "";
+            WinJS.UI.Pages.render("/pages/details/details.html", pageHolder, {
+                articleDescription: articleData,
             });
         });
     }
 
     WinJS.Utilities.markSupportedForProcessing(showListViewInvokedItem);
 
-
     WinJS.Namespace.define("CodeBehind", {
-
         showListViewInvokedItem: showListViewInvokedItem,
     })
 })();

@@ -1,7 +1,7 @@
 ﻿(function () {
 
     var goToPage = function (pageIndex) {
-        WinJS.Navigation.navigate("/pages/fish/fish.html", {
+        WinJS.Navigation.navigate("/pages/home/home.html", {
             pageIndex: pageIndex
         });
     }
@@ -9,8 +9,10 @@
     var showListViewInvokedItem = function (event) {
         event.detail.itemPromise.then(function (item) {
             var articleData = item.data;
-            WinJS.Navigation.navigate("/pages/details/details.html", {
-                articleId: articleData.id,
+            var pageHolder = document.getElementById("page-holder");
+            pageHolder.innerHTML = "";
+            WinJS.UI.Pages.render("/pages/details/details.html", pageHolder, {
+                articleDescription: articleData,
             });
         });
     }
@@ -34,10 +36,6 @@
     WinJS.Utilities.markSupportedForProcessing(showListViewInvokedItem);
 
     WinJS.Namespace.define("HomeCodeBehind", {
-        callLoadFishesHomePage: function () {
-            ViewModels.loadFish();
-        },
-
         goToPage: goToPage,
         showListViewInvokedItem: showListViewInvokedItem,
         selectAfterTermination: selectAfterTermination,

@@ -4,11 +4,8 @@
     "use strict";
 
     WinJS.UI.Pages.define("/pages/details/details.html", {
-        // This function is called whenever a user navigates to this page. It
-        // populates the page elements with the app's data.
         ready: function (element, options) {
-
-            ViewModels.loadDetails(options.articleId).then(
+            ViewModels.loadDetails(options.articleDescription).then(
                 function (list) {
                     WinJS.UI.processAll().then(function () {
 
@@ -16,7 +13,10 @@
                             href: "/pages/details/template.html"
                         });
                         var progress = document.getElementById("progress");
-                        progress.innerHTML = "";
+                        if (progress) {
+                            progress.innerHTML = "";
+                        }
+                        
                         var container = document.getElementById("container");
                         template.render(list, container);
                     }

@@ -15,31 +15,31 @@
     <script src="favoriteList.js"></script>
 </head>
 <body>
-    <div class="favoriteList fragment">
+    <div class="favoriteList fragment" >
         <header aria-label="Header content" role="banner">
             <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
-            <h1 class="titlearea win-type-ellipsis">
-                <span class="pagetitle">Welcome to favoriteList</span>
-            </h1>
-        </header>
-        <div id="favorite-template" data-win-control="WinJS.Binding.Template">
+                    <div id="favorite-template" data-win-control="WinJS.Binding.Template">
             <div id="favoriteTemplateHolder">
-                  <span data-win-bind="innerText: name"></span>, 
-                <!--<span data-win-bind="innerText: discription"></span>
-                <img src="#" data-win-bind="src: imageURL" height="100" width="100" />-->
+                <img src="#" data-win-bind="src: imageURL" style="width:120px;height:120px;display:inline-block;"/>
+                  <span data-win-bind="innerText: title"></span>
             </div>
         </div>
-        <section id="favoriteListSection" aria-label="Main content" role="main">
-            <div id="listOfAll">
+        </header>
+
+        <section id="favoriteListSection" aria-label="Main content" role="main" >
+            
                 <div id="listView" data-win-control="WinJS.UI.ListView"
                         data-win-options="{
                         oniteminvoked: CodeBehind.showListViewInvokedItem,
                         itemTemplate: select('#favorite-template'), 
-                        layout: { type: WinJS.UI.ListLayout }
+                        selectionMode: 'none',
+                        layout : {type: WinJS.UI.ListLayout},
                     }">
-                </div>
+                
             </div>
+            
         </section>
+        <div id="page-holder" class="favorite"></div>
     </div>
 </body>
 </html>

@@ -7,22 +7,13 @@
         var printTask = printEvent.request.createPrintTask("Print Sample", function (args) {
             var test = MSApp.getHtmlPrintDocumentSource(document)
             args.setSource(test);
-               
-            // Register the handler for print task completion event
             printTask.oncompleted = onPrintTaskCompleted;
         });
     }
 
     function onPrintTaskCompleted(printTaskCompletionEvent) {
-        // Notify the user about the failure
         if (printTaskCompletionEvent.completion === Windows.Graphics.Printing.PrintTaskCompletion.failed) {
             WinJS.log && WinJS.log("Failed to print.", "sample", "error");
         }
     }
-
-WinJS.Utilities.markSupportedForProcessing(showFavorite);
-
-//WinJS.Namespace.define("FavoriteSelection", {
-//    addSelectionToFavorite: addSelectionToFavorite,
-//})
 })();
