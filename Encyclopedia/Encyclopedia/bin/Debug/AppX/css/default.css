@@ -93,6 +93,10 @@
     .fragment header[role=banner] {
         -ms-grid-columns: 29px 71px 1fr;
     }
+
+    #projectTitleSnapView {
+        display: none;
+    }
 }
 body {
     /*background-image: url("/images/Abstract%20Blue%20Waves%20Vector%20Illustration.svg");

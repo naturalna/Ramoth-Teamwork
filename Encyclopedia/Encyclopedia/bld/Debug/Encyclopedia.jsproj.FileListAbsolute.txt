@@ -72,10 +72,6 @@ C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\D
 C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\pri.resfiles
 C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\LanguageQualifiers.txt
 C:\Users\Anna\Desktop\workingDir\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\ProjectArchitectures.txt
-C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\priconfig.xml.intermediate
-C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\layout.resfiles.intermediate
-C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\resources.resfiles.intermediate
-C:\Users\bbbb\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\pri.resfiles.intermediate
 C:\Users\bbbb\Desktop\Encyclopedia\Encyclopedia\bin\Debug\resources.pri
 C:\Users\bbbb\Desktop\Encyclopedia\Encyclopedia\bin\Debug\AppxManifest.xml
 C:\Users\bbbb\Desktop\Encyclopedia\Encyclopedia\bin\Debug\Encyclopedia.build.appxrecipe

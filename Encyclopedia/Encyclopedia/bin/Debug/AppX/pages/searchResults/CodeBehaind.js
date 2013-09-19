@@ -2,7 +2,7 @@
     var showListViewInvokedItem = function (event) {
         event.detail.itemPromise.then(function (item) {
             var articleData = item.data;
-            var pageHolder = document.getElementById("page-holder");
+            var pageHolder = document.getElementById("searchPage-holder");
             pageHolder.innerHTML = "";
             WinJS.UI.Pages.render("/pages/details/details.html", pageHolder, {
                 articleDescription: articleData,

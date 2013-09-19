@@ -37,19 +37,19 @@
             </header>
             <section aria-label="Main content" role="main">
                 <div class="searchResultListOfAll">
-                    <div id="listView" data-win-control="WinJS.UI.ListView"
+                    <div id="searchListView" data-win-control="WinJS.UI.ListView"
                         data-win-options="{
                             itemTemplate: select('#search-item-template'),
                             itemDataSource: ViewModels.searchList.dataSource,
                             oniteminvoked: CodeBehind.showListViewInvokedItem,
                             layout : {type: WinJS.UI.ListLayout}
-                        }" style="position: relative; width: 508px; height: 544px; left: -20px; top: -148px;">
+                        }">
                     </div>
                 </div>
                
             </section>
         </div>
-        <div id="page-holder" style="position: relative; left: 0px; top: -132px; height: 540px; width: 508px;"></div>
+        <div id="searchPage-holder"></div>
     </div>  
 </body>
 </html>

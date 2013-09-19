@@ -204,28 +204,28 @@
     margin-left: 0px;
     margin-right: 0px;
 }
-.win-listview 
+#searchListView.win-listview 
 {
     width:40%;  
-    background-color: #2B2B2B;
     color: #A2FF30;
 }
 .win-item {
-    width: 100%;
+    width: 500px;
     height: 130px;
     background-color: #2B2B2B;
-    
 }
 
-#listView {
-    margin-top: 120px;
-	width: 50%;
-	height:50%; 
+#searchListView {
+    margin-top: -1%;
+	width: 70%;
+	/*height:50%; for some reason when using a percentage it breaks the search*/ 
+    height: 544px;
     background: transparent;
 }
-#page-holder {
-    margin-top: 120px;
-    width: 50%;
+#searchPage-holder {
+    margin-top: 0.5%;
+    margin-left: 47%;
+    width: 47%;
 	height: 50%;  
     background: transparent;
     overflow-y: scroll;
