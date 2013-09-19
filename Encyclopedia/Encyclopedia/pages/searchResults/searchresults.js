@@ -16,10 +16,8 @@
     WinJS.Binding.optimizeBindingReferences = true;
 
     var appModel = Windows.ApplicationModel;
-    var appViewState = Windows.UI.ViewManagement.ApplicationViewState;
     var nav = WinJS.Navigation;
     var ui = WinJS.UI;
-    var utils = WinJS.Utilities;
     var searchPageURI = "/pages/searchResults/searchresults.html";
     var search = appModel.Search;
 

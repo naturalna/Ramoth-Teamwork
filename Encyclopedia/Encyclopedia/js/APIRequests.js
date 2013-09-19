@@ -29,11 +29,17 @@
                 url: queryUrl, 
                 responseType: "json",
                 headers: { "Content-Type": "application/json" }
-            }).then(function (data) {
+        }, function (error) {
+            var msg = new Windows.UI.Popups.MessageDialog("Lost internet connection");
+            msg.showAsync();
+        }).then(function (data) {
                 var result = getFishes(data);
 
                 return result
-        });
+            }, function (error) {
+                var msg = new Windows.UI.Popups.MessageDialog("Lost internet connection");
+                msg.showAsync();
+            });
     };
 
     var getFishes = function (data) {
@@ -49,9 +55,15 @@
             url: queryUrl,
             responseType: "json",
             headers: { "Content-Type": "application/json" }
+        }, function (error) {
+            var msg = new Windows.UI.Popups.MessageDialog("Lost internet connection");
+            msg.showAsync();
         }).then(function (data) {
             var result = getFishes(data);
             return result;
+        }, function (error) {
+            var msg = new Windows.UI.Popups.MessageDialog("Lost internet connection");
+            msg.showAsync();
         });
     };
 

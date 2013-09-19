@@ -9,7 +9,7 @@
                 var listv = document.getElementById("listView").winControl;
                 listv.itemDataSource = bindingList.dataSource;
             }, function (error) {
-                var msg = new Windows.UI.Popups.MessageDialog("Pleace try again later.");
+                var msg = new Windows.UI.Popups.MessageDialog("An error has occurred. Pleace try again later.");
                 msg.showAsync();
             });
         },

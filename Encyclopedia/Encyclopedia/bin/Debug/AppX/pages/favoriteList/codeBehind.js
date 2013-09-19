@@ -7,6 +7,9 @@
             WinJS.UI.Pages.render("/pages/details/details.html", pageHolder, {
                 articleDescription: articleData,
             });
+        }, function (error) {
+            var msg = new Windows.UI.Popups.MessageDialog("An error has occurred. Pleace try again later.");
+            msg.showAsync();
         });
     }
 

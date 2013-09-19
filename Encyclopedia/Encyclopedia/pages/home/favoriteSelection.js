@@ -1,6 +1,6 @@
 ﻿(function () {
     var selectedFiles = [];
-    var addSelectionToFavorite = function (event) {
+    var addSelectionToFavorite = function () {
         selectedFiles = [];
         var triggeringListView = this.winControl;
         triggeringListView.selection.getItems().then(function (items) {
@@ -12,7 +12,7 @@
         })
     };
 
-    var favoriteFileSaver = function (event) {
+    var favoriteFileSaver = function () {
         var roamingSettings = Windows.Storage.ApplicationData.current.roamingSettings;
         var lastFavoriteList = roamingSettings.values['favoriteList'];
         if (lastFavoriteList === undefined) {
@@ -34,12 +34,12 @@
         WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
     };
 
-    var showFavorite = function (event) {
+    var showFavorite = function () {
         WinJS.Navigation.navigate("/pages/favoriteList/favoriteList.html", {
         });
     };
 
-    var genrateWord = function (event) {
+    var genrateWord = function () {
 
         var savePicker = new Windows.Storage.Pickers.FileSavePicker();
         savePicker.defaultFileExtension = ".txt"
@@ -55,11 +55,14 @@
                 for (var i = 0; i < selectedFiles.length; i++) {
                     var objectIndex = JSON.parse(selectedFiles[i]);
 
-                    var collection = Data.getFishByID(objectIndex).then(function (objectSelect) {
+                    Data.getFishByID(objectIndex).then(function (objectSelect) {
                         ViewModels.loadDetails(objectSelect[0])
                             .then(function (data) {
                                 Windows.Storage.FileIO.writeTextAsync(file, data.description);
                             });
+                    }, function (error) {
+                        var msg = new Windows.UI.Popups.MessageDialog("An error has occurred. Pleace try again later.");
+                        msg.showAsync();
                     });
                 }
             }, function (error) {
@@ -70,6 +73,9 @@
                 lView = document.getElementById("listView").winControl;
                 lView.selection.clear();
                 WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
+            }, function (error) {
+                var msg = new Windows.UI.Popups.MessageDialog("An error has occurred. Pleace try again later.");
+                msg.showAsync();
             });
         }
     };

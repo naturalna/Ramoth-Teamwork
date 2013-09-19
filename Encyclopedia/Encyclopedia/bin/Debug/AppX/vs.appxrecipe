@@ -22,7 +22,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-09-19T12:45:12.523</Modified>
+      <Modified>2013-09-19T13:10:44.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.css">
       <PackagePath>pages\details\details.css</PackagePath>
@@ -82,7 +82,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\APIRequests.js">
       <PackagePath>js\APIRequests.js</PackagePath>
-      <Modified>2013-09-19T12:45:12.540</Modified>
+      <Modified>2013-09-19T13:17:02.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\dataLayer.js">
       <PackagePath>js\dataLayer.js</PackagePath>
@@ -110,11 +110,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\codeBehind.js">
       <PackagePath>pages\favoriteList\codeBehind.js</PackagePath>
-      <Modified>2013-09-19T12:45:12.556</Modified>
+      <Modified>2013-09-19T13:13:10.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.js">
       <PackagePath>pages\favoriteList\favoriteList.js</PackagePath>
-      <Modified>2013-09-19T12:53:04.783</Modified>
+      <Modified>2013-09-19T13:12:40.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\printer.js">
       <PackagePath>pages\favoriteList\printer.js</PackagePath>
@@ -122,15 +122,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\codeBehaind.js">
       <PackagePath>pages\home\codeBehaind.js</PackagePath>
-      <Modified>2013-09-19T12:54:18.594</Modified>
+      <Modified>2013-09-19T13:13:39.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\favoriteSelection.js">
       <PackagePath>pages\home\favoriteSelection.js</PackagePath>
-      <Modified>2013-09-19T13:02:22.070</Modified>
+      <Modified>2013-09-19T13:14:54.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2013-09-19T12:55:28.037</Modified>
+      <Modified>2013-09-19T13:15:51.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\printer.js">
       <PackagePath>pages\home\printer.js</PackagePath>
@@ -142,7 +142,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.js">
       <PackagePath>pages\searchResults\searchresults.js</PackagePath>
-      <Modified>2013-09-19T12:45:12.601</Modified>
+      <Modified>2013-09-19T13:09:07.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\default.html">
       <PackagePath>default.html</PackagePath>
