@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="11978MackOrc.FreeFishEncyclopedia" Version="1.0.0.0" Publisher="CN=DD3D6D1D-0086-4100-8206-7B4F24C1F135" />
+  <Identity Name="11978MackOrc.FreeFishEncyclopedia" Version="1.0.0.3" Publisher="CN=DD3D6D1D-0086-4100-8206-7B4F24C1F135" />
   <Properties>
     <DisplayName>Free Fish Encyclopedia</DisplayName>
     <PublisherDisplayName>MackOrc</PublisherDisplayName>

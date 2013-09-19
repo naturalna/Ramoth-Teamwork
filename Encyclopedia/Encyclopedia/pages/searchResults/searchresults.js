@@ -27,7 +27,7 @@
         ready: function (element, options) {
             WinJS.Binding.processAll(element, ViewModels);
 
-           //ViewModels.submitSearchText(options.queryText);
+            ViewModels.submitSearchText(options.queryText);
             ViewModels.searchForFishes(options.queryText);
         }
     });

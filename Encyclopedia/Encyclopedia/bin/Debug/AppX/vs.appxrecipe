@@ -5,24 +5,24 @@
     <WindowsUser>academy</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>B04837F975A871BDADD58FB37092E2B43759C61037A17852816C483E9518077D</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>11978MackOrc.FreeFishEncyclopedia_1.0.0.0_neutral__tx3sgew5zc62y</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>34C30BAFFCD05AE30AAC232FE41E7DD49D592B25398134AB9BD854FF2C75379C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>11978MackOrc.FreeFishEncyclopedia_1.0.0.1_neutral__tx3sgew5zc62y</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>11978MackOrc.FreeFishEncyclopedia_tx3sgew5zc62y!App</RegisteredUserModeAppID>
     <RegisteredPackageID>11978MackOrc.FreeFishEncyclopedia</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=DD3D6D1D-0086-4100-8206-7B4F24C1F135</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-19T19:29:45.708</Modified>
+      <Modified>2013-09-19T20:18:08.771</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-09-19T19:08:12.755</Modified>
+      <Modified>2013-09-19T19:58:33.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.css">
       <PackagePath>pages\details\details.css</PackagePath>
@@ -39,6 +39,10 @@
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.css">
       <PackagePath>pages\searchResults\searchresults.css</PackagePath>
       <Modified>2013-09-19T19:38:15.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\Abstract Blue Waves Vector Illustration.svg">
+      <PackagePath>images\Abstract Blue Waves Vector Illustration.svg</PackagePath>
+      <Modified>2013-09-11T21:36:18.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\CoolesSplashscreen.png">
       <PackagePath>images\CoolesSplashscreen.png</PackagePath>
@@ -102,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\viewmodels.js">
       <PackagePath>js\viewmodels.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.771</Modified>
+      <Modified>2013-09-19T20:25:26.091</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.js">
       <PackagePath>pages\details\details.js</PackagePath>
@@ -138,7 +142,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.js">
       <PackagePath>pages\searchResults\searchresults.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.792</Modified>
+      <Modified>2013-09-19T20:24:24.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\default.html">
       <PackagePath>default.html</PackagePath>
@@ -162,7 +166,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.html">
       <PackagePath>pages\searchResults\searchresults.html</PackagePath>
-      <Modified>2013-09-19T19:31:35.324</Modified>
+      <Modified>2013-09-19T20:19:07.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\settings\privacyPolicy.html">
       <PackagePath>pages\settings\privacyPolicy.html</PackagePath>
@@ -170,7 +174,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-09-19T19:29:45.563</Modified>
+      <Modified>2013-09-19T20:18:08.699</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

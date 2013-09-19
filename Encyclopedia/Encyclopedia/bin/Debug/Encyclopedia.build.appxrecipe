@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.css">
       <PackagePath>pages\searchResults\searchresults.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\Abstract Blue Waves Vector Illustration.svg">
+      <PackagePath>images\Abstract Blue Waves Vector Illustration.svg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\CoolesSplashscreen.png">
       <PackagePath>images\CoolesSplashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

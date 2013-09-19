@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="11978MackOrc.FreeFishEncyclopedia" Version="1.0.0.0" Publisher="CN=DD3D6D1D-0086-4100-8206-7B4F24C1F135" ProcessorArchitecture="neutral" />
+  <Identity Name="11978MackOrc.FreeFishEncyclopedia" Version="1.0.0.1" Publisher="CN=DD3D6D1D-0086-4100-8206-7B4F24C1F135" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>Free Fish Encyclopedia</DisplayName>
     <PublisherDisplayName>MackOrc</PublisherDisplayName>

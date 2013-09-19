@@ -59,7 +59,7 @@
     };
 
     var submitSearchText = function (text) {
-        searchQueryText.queryText = text;
+        searchQuery.queryText = text;
         fishList.notifyReload();
     }
 
