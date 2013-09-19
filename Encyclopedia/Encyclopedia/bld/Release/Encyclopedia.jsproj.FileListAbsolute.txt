@@ -1,0 +1,13 @@
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Release\resources.pri
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Release\AppxManifest.xml
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Release\Encyclopedia.build.appxrecipe
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Release\priconfig.xml.intermediate
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Release\layout.resfiles.intermediate
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Release\resources.resfiles.intermediate
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Release\pri.resfiles.intermediate
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Release\priconfig.xml
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Release\layout.resfiles
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Release\resources.resfiles
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Release\pri.resfiles
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Release\LanguageQualifiers.txt
+C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Release\ProjectArchitectures.txt

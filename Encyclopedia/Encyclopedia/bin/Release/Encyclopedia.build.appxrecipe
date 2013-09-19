@@ -3,174 +3,130 @@
   <PropertyGroup>
     <Machine>ACADEMYPCU-10</Machine>
     <WindowsUser>academy</WindowsUser>
-    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>B04837F975A871BDADD58FB37092E2B43759C61037A17852816C483E9518077D</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>11978MackOrc.FreeFishEncyclopedia_1.0.0.0_neutral__tx3sgew5zc62y</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>11978MackOrc.FreeFishEncyclopedia_tx3sgew5zc62y!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>11978MackOrc.FreeFishEncyclopedia</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=DD3D6D1D-0086-4100-8206-7B4F24C1F135</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-19T19:29:45.708</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-09-19T19:08:12.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.css">
       <PackagePath>pages\details\details.css</PackagePath>
-      <Modified>2013-09-19T19:08:12.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.css">
       <PackagePath>pages\favoriteList\favoriteList.css</PackagePath>
-      <Modified>2013-09-19T19:08:12.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
-      <Modified>2013-09-19T19:08:12.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.css">
       <PackagePath>pages\searchResults\searchresults.css</PackagePath>
-      <Modified>2013-09-19T19:38:15.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\CoolesSplashscreen.png">
       <PackagePath>images\CoolesSplashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-19T19:08:12.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\fish%28150x150%29-100.png">
       <PackagePath>images\fish%28150x150%29-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-19T19:08:12.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\fishSmallLogo%2830x30%29-100.png">
       <PackagePath>images\fishSmallLogo%2830x30%29-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-19T19:08:12.762</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\fishStoreLogo%2850x50%29-100.png">
       <PackagePath>images\fishStoreLogo%2850x50%29-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-19T19:08:12.762</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
-      <Modified>2013-09-19T19:08:12.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
-      <Modified>2013-09-19T19:08:12.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
-      <Modified>2013-09-19T19:08:12.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
-      <Modified>2013-09-19T19:08:12.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\images\PhotoNotAvailable.jpg">
       <PackagePath>images\PhotoNotAvailable.jpg</PackagePath>
-      <Modified>2013-09-19T19:08:12.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\APIRequests.js">
       <PackagePath>js\APIRequests.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\dataLayer.js">
       <PackagePath>js\dataLayer.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.770</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\terminatedStates.js">
       <PackagePath>js\terminatedStates.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\js\viewmodels.js">
       <PackagePath>js\viewmodels.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.js">
       <PackagePath>pages\details\details.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\codeBehind.js">
       <PackagePath>pages\favoriteList\codeBehind.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.js">
       <PackagePath>pages\favoriteList\favoriteList.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\codeBehaind.js">
       <PackagePath>pages\home\codeBehaind.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.782</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\favoriteSelection.js">
       <PackagePath>pages\home\favoriteSelection.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.783</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\printer.js">
       <PackagePath>pages\home\printer.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\codeBehaind.js">
       <PackagePath>pages\searchResults\codeBehaind.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.js">
       <PackagePath>pages\searchResults\searchresults.js</PackagePath>
-      <Modified>2013-09-19T19:08:12.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-09-19T19:08:12.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\details.html">
       <PackagePath>pages\details\details.html</PackagePath>
-      <Modified>2013-09-19T19:08:12.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\details\template.html">
       <PackagePath>pages\details\template.html</PackagePath>
-      <Modified>2013-09-19T19:08:12.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\favoriteList\favoriteList.html">
       <PackagePath>pages\favoriteList\favoriteList.html</PackagePath>
-      <Modified>2013-09-19T19:08:12.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2013-09-19T19:08:12.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\searchResults\searchresults.html">
       <PackagePath>pages\searchResults\searchresults.html</PackagePath>
-      <Modified>2013-09-19T19:31:35.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\pages\settings\privacyPolicy.html">
       <PackagePath>pages\settings\privacyPolicy.html</PackagePath>
-      <Modified>2013-09-19T19:10:21.130</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\academy\Documents\GitHub\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-09-19T19:29:45.563</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

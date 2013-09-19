@@ -7,10 +7,10 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="04814490-06bc-4509-bd5c-3192b4523524" Version="1.0.0.0" Publisher="CN=Anna" ProcessorArchitecture="neutral" />
+  <Identity Name="11978MackOrc.FreeFishEncyclopedia" Version="1.0.0.0" Publisher="CN=DD3D6D1D-0086-4100-8206-7B4F24C1F135" ProcessorArchitecture="neutral" />
   <Properties>
-    <DisplayName>Encyclopedia</DisplayName>
-    <PublisherDisplayName>Anna</PublisherDisplayName>
+    <DisplayName>Free Fish Encyclopedia</DisplayName>
+    <PublisherDisplayName>MackOrc</PublisherDisplayName>
     <Logo>images\fishStoreLogo(50x50)-100.png</Logo>
   </Properties>
   <Prerequisites>
@@ -22,7 +22,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <VisualElements DisplayName="Encyclopedia" Logo="images\fish(150x150)-100.png" SmallLogo="images\fishSmallLogo(30x30)-100.png" Description="Encyclopedia" ForegroundText="light" BackgroundColor="#464646">
+      <VisualElements DisplayName="Free Fish Encyclopedia" Logo="images\fish(150x150)-100.png" SmallLogo="images\fishSmallLogo(30x30)-100.png" Description="Encyclopedia" ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="images\CoolesSplashscreen.png" BackgroundColor="#4A75FF" />
         <InitialRotationPreference>
@@ -31,15 +31,6 @@
         </InitialRotationPreference>
       </VisualElements>
       <Extensions>
-        <Extension Category="windows.fileTypeAssociation">
-          <FileTypeAssociation Name="generator">
-            <DisplayName>generator</DisplayName>
-            <EditFlags OpenIsSafe="true" />
-            <SupportedFileTypes>
-              <FileType>.html</FileType>
-            </SupportedFileTypes>
-          </FileTypeAssociation>
-        </Extension>
         <Extension Category="windows.search" />
         <Extension Category="windows.shareTarget">
           <ShareTarget>
@@ -50,15 +41,14 @@
     </Application>
   </Applications>
   <Capabilities>
-    <Capability Name="documentsLibrary" />
     <Capability Name="internetClient" />
   </Capabilities>
   <Dependencies>
-    <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20789" />
+    <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20602" />
   </Dependencies>
   <build:Metadata>
     <build:Item Name="VisualStudio" Version="11.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Ultimate 2012" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Premium 2012" />
     <build:Item Name="OperatingSystem" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="11.0.60610.1" />
     <build:Item Name="MakePri.exe" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
