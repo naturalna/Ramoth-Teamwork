@@ -77,11 +77,30 @@
         return x;
     };
 
+    var foundFishById = [];
+    var getFishByID = function (id) {
+        var x = APIRequests.getFavorite(id)
+            .then(function (jsonResult) {
+                foundFishById = [];
+                for (var j = 0; j < jsonResult.length; j++) {
+                    foundFishById.push({
+                        "name": jsonResult[j].Title,
+                        "description": jsonResult[j].Description,
+                        "imageURL": jsonResult[j].ImageURL,
+                    });
+                }
+                return foundFishById;
+            })
+
+        return x;
+    }
+
     WinJS.Namespace.define("Data", {
         getFishes: getFishes,
         allFishes: allFishes,
         article: article,
         getFavoriteModels: getFavoriteModels,
         search: search,
+        getFishByID: getFishByID,
     });
 }());

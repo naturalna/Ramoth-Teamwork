@@ -6,7 +6,7 @@
         },
         ready: function (element, options) {
             if (options == undefined) {
-                options = { pageIndex : 1 };
+                options = { pageIndex: 1 };
             }
 
             var pageIndex = options.pageIndex;
@@ -19,7 +19,7 @@
             if (pageIndex == 40) {
                 nextPageIndex = 1;
             }
-            
+
             ViewModels.loadPart(options.pageIndex).then(function () {
                 WinJS.UI.processAll().then(function () {
                     var listv = document.getElementById("listView").winControl;
@@ -30,7 +30,7 @@
                     //termination
                     var session = Session.getAfterTerminationObject();
                     if (session.length > 0) {
-                        CodeBehind.selectAfterTermination(session);
+                        HomeCodeBehind.selectAfterTermination(session);
                         Session.setAfterTerminationObject([]);
                     }
                     //---------

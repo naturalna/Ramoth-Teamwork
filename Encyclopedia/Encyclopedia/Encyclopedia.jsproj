@@ -82,6 +82,7 @@
     <Content Include="pages\favoriteList\favoriteList.css" />
     <Content Include="pages\favoriteList\favoriteList.html" />
     <Content Include="pages\favoriteList\favoriteList.js" />
+    <Content Include="pages\favoriteList\printer.js" />
     <Content Include="pages\home\codeBehaind.js" />
     <Content Include="pages\home\favoriteSelection.js" />
     <Content Include="pages\home\home.css" />

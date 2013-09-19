@@ -42,30 +42,36 @@
     var genrateWord = function (event) {
 
         var savePicker = new Windows.Storage.Pickers.FileSavePicker();
-        savePicker.defaultFileExtension = ".html"
-        savePicker.fileTypeChoices.insert("Plain Text", [".html"])
+        savePicker.defaultFileExtension = ".txt"
+        savePicker.fileTypeChoices.insert("Plain Text", [".txt"])
 
         savePicker.suggestedFileName = "New Document";
-
-        savePicker.pickSaveFileAsync().then(function (file) {
-
-
-            for (var i = 0; i < selectedFiles.length; i++) {
-                var objectSelect = JSON.parse(selectedFiles[i]);
-                ViewModels.loadDetails(objectSelect.id).then(function (data) {
-                    Windows.Storage.FileIO.writeTextAsync(file, data.discription);
-                });
-
-            }
-            selectedFiles = [];
-            lView = document.getElementById("listView").winControl;
-            lView.selection.clear();
-            WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
-
-        }, function (error) {
+        if (selectedFiles.length <= 0) {
             var msg = new Windows.UI.Popups.MessageDialog("No file found");
             msg.showAsync();
-        })
+        } else {
+            savePicker.pickSaveFileAsync().then(function (file) {
+
+                for (var i = 0; i < selectedFiles.length; i++) {
+                    var objectIndex = JSON.parse(selectedFiles[i]);
+
+                    var collection = Data.getFishByID(objectIndex).then(function (objectSelect) {
+                        ViewModels.loadDetails(objectSelect[0])
+                            .then(function (data) {
+                                Windows.Storage.FileIO.writeTextAsync(file, data.description);
+                            });
+                    });
+                }
+            }, function (error) {
+                var msg = new Windows.UI.Popups.MessageDialog("No file found");
+                msg.showAsync();
+            }).then(function () {
+                selectedFiles = [];
+                lView = document.getElementById("listView").winControl;
+                lView.selection.clear();
+                WinJS.Application.sessionState["selectedFiles"] = selectedFiles;
+            });
+        }
     };
 
     document.getElementById("showFavorite").addEventListener("click", showFavorite);

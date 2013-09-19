@@ -24,7 +24,7 @@
         for (var j = 0; j < object.length; j++) {
             for (var i = 0; i < lView.itemDataSource.list.length; i++) {
                 var current = lView.itemDataSource.list.getItem(i);
-                if (current.data.id == object[j].id) {
+                if (current.data.id == object[j]) {
                     forSelect.push(i);
                 }
             }
