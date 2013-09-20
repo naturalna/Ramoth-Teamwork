@@ -51,19 +51,20 @@
             msg.showAsync();
         } else {
             savePicker.pickSaveFileAsync().then(function (file) {
+                if (file != null) {
+                    for (var i = 0; i < selectedFiles.length; i++) {
+                        var objectIndex = JSON.parse(selectedFiles[i]);
 
-                for (var i = 0; i < selectedFiles.length; i++) {
-                    var objectIndex = JSON.parse(selectedFiles[i]);
-
-                    Data.getFishByID(objectIndex).then(function (objectSelect) {
-                        ViewModels.loadDetails(objectSelect[0])
-                            .then(function (data) {
-                                Windows.Storage.FileIO.writeTextAsync(file, data.description);
-                            });
-                    }, function (error) {
-                        var msg = new Windows.UI.Popups.MessageDialog("An error has occurred. Pleace try again later.");
-                        msg.showAsync();
-                    });
+                        Data.getFishByID(objectIndex).then(function (objectSelect) {
+                            ViewModels.loadDetails(objectSelect[0])
+                                .then(function (data) {
+                                    Windows.Storage.FileIO.writeTextAsync(file, data.description);
+                                });
+                        }, function (error) {
+                            var msg = new Windows.UI.Popups.MessageDialog("An error has occurred. Pleace try again later.");
+                            msg.showAsync();
+                        });
+                    }
                 }
             }, function (error) {
                 var msg = new Windows.UI.Popups.MessageDialog("No file found");

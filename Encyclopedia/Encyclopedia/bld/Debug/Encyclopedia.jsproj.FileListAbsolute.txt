@@ -94,3 +94,12 @@ C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debu
 C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\layout.resfiles.intermediate
 C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\resources.resfiles.intermediate
 C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\pri.resfiles.intermediate
+C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\resources.pri
+C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\AppxManifest.xml
+C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bin\Debug\Encyclopedia.build.appxrecipe
+C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\priconfig.xml
+C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\layout.resfiles
+C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\resources.resfiles
+C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\pri.resfiles
+C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\LanguageQualifiers.txt
+C:\Users\Anna\Desktop\LastDay\Ramoth-Teamwork\Ramoth-Teamwork\Encyclopedia\Encyclopedia\bld\Debug\ProjectArchitectures.txt
