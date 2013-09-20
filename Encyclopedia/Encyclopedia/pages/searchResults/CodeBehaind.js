@@ -15,7 +15,7 @@
 
     WinJS.Utilities.markSupportedForProcessing(showListViewInvokedItem);
 
-    WinJS.Namespace.define("CodeBehind", {
+    WinJS.Namespace.define("SearchCodeBehind", {
         showListViewInvokedItem: showListViewInvokedItem,
     })
 })();
