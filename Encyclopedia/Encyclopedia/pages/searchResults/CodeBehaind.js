@@ -3,7 +3,10 @@
         event.detail.itemPromise.then(function (item) {
             var articleData = item.data;
             var pageHolder = document.getElementById("searchPage-holder");
-            pageHolder.innerHTML = "";
+            if (pageHolder != null) {
+                pageHolder.innerHTML = "";
+            }
+            
             WinJS.UI.Pages.render("/pages/details/details.html", pageHolder, {
                 articleDescription: articleData,
             });

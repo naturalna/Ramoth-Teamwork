@@ -6,7 +6,7 @@
     WinJS.UI.Pages.define("/pages/favoriteList/favoriteList.html", {
         ready: function (element, options) {
             ViewModels.getFavorite().done(function (bindingList) {
-                var listv = document.getElementById("listView").winControl;
+                var listv = document.getElementById("favoriteListView").winControl;
                 listv.itemDataSource = bindingList.dataSource;
             }, function (error) {
                 var msg = new Windows.UI.Popups.MessageDialog("An error has occurred. Pleace try again later.");

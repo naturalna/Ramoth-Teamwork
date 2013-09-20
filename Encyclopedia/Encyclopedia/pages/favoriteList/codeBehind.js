@@ -2,8 +2,11 @@
     var showListViewInvokedItem = function (event) {
         event.detail.itemPromise.then(function (item) {
             var articleData = item.data;
-            var pageHolder = document.getElementById("page-holder");
-            pageHolder.innerHTML = "";
+            var pageHolder = document.getElementById("favoritePage-holder");
+            if (pageHolder != null) {
+                pageHolder.innerHTML = "";
+            }
+            
             WinJS.UI.Pages.render("/pages/details/details.html", pageHolder, {
                 articleDescription: articleData,
             });
